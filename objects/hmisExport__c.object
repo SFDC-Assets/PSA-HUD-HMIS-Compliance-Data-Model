@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Metadata about the result export files for HUD about HMIS projects, clients, inventory, etc</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>hmisCSVVersion__c</fullName>
+        <defaultValue>&quot;2024 v1.5&quot;</defaultValue>
+        <description>The version number of the CSV Specification. Format is required to be [year] v[version number]. For example, version 1.2 of the FY2024 CSV specifications would be &quot;2024 v1.2&quot;</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The version number of the CSV Specification. Format is required to be [year] v[version number]. For example, version 1.2 of the FY2024 CSV specifications would be &quot;2024 v1.2&quot;</inlineHelpText>
+        <label>CSV Version</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>hmisExportDate__c</fullName>
+        <description>The date and time that the export process was initiated</description>
+        <inlineHelpText>The date and time that the export process was initiated</inlineHelpText>
+        <label>Export Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>hmisExportDirective__c</fullName>
+        <defaultValue>1</defaultValue>
+        <description>An ExportDirective of ‘Delta refresh’ (1) are intended to be synchronized with an existing data set/previously transmitted data in the receiving database and include only information that is new or different since the last time data were synchronized.  Exported data sets with an ExportDirective of ‘Full refresh’ (2) are intended to completely replace any previously transmitted data in the receiving database.  Other (3) is used to identify exports based on other parameters.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>An ExportDirective of ‘Delta refresh’ (1) are intended to be synchronized with an existing data set/previously transmitted data in the receiving database and include only information that is new or different since the last time data were synchronized.  Exported data sets with an ExportDirective of ‘Full refresh’ (2) are intended to completely replace any previously transmitted data in the receiving database.  Other (3) is used to identify exports based on other parameters.</inlineHelpText>
+        <label>Export Directive</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>hmisExportEndDate__c</fullName>
+        <description>The user-entered end date for the export period; the ExportEnd should be the same as the ExportStart for exports of HIC data.</description>
+        <inlineHelpText>The user-entered end date for the export period; the ExportEnd should be the same as the ExportStart for exports of HIC data.</inlineHelpText>
+        <label>Export End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>hmisExportID__c</fullName>
+        <description>Unique identifier of this export.  Set at the beginning of the export process so that all other objects can reference the single Export configuration.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Unique identifier of this export.  Set at the beginning of the export process so that all other objects can reference the single Export configuration.</inlineHelpText>
+        <label>Export ID</label>
+        <length>32</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>hmisExportPeriodType__c</fullName>
+        <defaultValue>&quot;Reporting period&quot;</defaultValue>
+        <description>‘Reporting period’ exports include all records needed for reporting on clients and enrollments active in
+the export period. An ExportPeriodType of ‘updated’ will include all records with a Date Created, Date
+Updated, or Date Deleted that fall between the Export Start Date and the Export End Date.  The ‘Other’ ExportPeriodType is used to identify exports in which records were selected
+based upon parameters mutually agreed upon by the sender and recipient of the CSV data.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>‘Reporting period’ exports include all records needed for reporting on clients and enrollments active in
+the export period. An ExportPeriodType of ‘updated’ will include all records with a Date Created, Date
+Updated, or Date Deleted that fall between the Export Start Date and the Export End Date.  The ‘Other’ ExportPeriodType is used to identify exports in which records were selected
+based upon parameters mutually agreed upon by the sender and recipient of the CSV data.</inlineHelpText>
+        <label>Export Period Type</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>hmisExportStartDate__c</fullName>
+        <description>The user-entered start date for the export period.  The date from which data should be exported.</description>
+        <inlineHelpText>The user-entered start date for the export period.  The date from which data should be exported.</inlineHelpText>
+        <label>Export Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>hmisHashStatus__c</fullName>
+        <defaultValue>1</defaultValue>
+        <description>1 - &apos;Unhashed&apos;
+3 - &apos;Other&apos;
+4 - &apos;SHA-256&apos; - Client.csv would be hashed using SHA-256, see FY 2024 HMIS CSV Format Specification</description>
+        <externalId>false</externalId>
+        <label>Hash Status</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>hmisImplementationID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>A vendor-generated ID that is unique to every source database, regardless of the number of CoCs participating in the implementation.  Org Id is copied into this field</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A vendor-generated ID that is unique to every source database, regardless of the number of CoCs participating in the implementation.  Org Id is copied into this field</inlineHelpText>
+        <label>Implementation ID</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>hmisSoftwareName__c</fullName>
+        <defaultValue>&quot;Salesforce&quot;</defaultValue>
+        <description>The name of the software generating the export.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the software generating the export.</inlineHelpText>
+        <label>Software Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>hmisSoftwareVersion__c</fullName>
+        <defaultValue>&quot;0.1&quot;</defaultValue>
+        <description>The version number of the software, if applicable</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The version number of the software, if applicable</inlineHelpText>
+        <label>Software Version</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>hmisSourceContactEmail__c</fullName>
+        <description>The email address of the user generating the export, if available.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The email address of the user generating the export, if available.</inlineHelpText>
+        <label>Source Contact Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>hmisSourceContactExtension__c</fullName>
+        <description>The phone extension of the user generating the export, if available. Limited to 5 digits/no punctuation.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The phone extension of the user generating the export, if available. Limited to 5 digits/no punctuation.</inlineHelpText>
+        <label>Source Contact Extension</label>
+        <length>5</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>hmisSourceContactFirst__c</fullName>
+        <description>The first name of the user generating the export.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The first name of the user generating the export.</inlineHelpText>
+        <label>Source Contact First</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>hmisSourceContactLast__c</fullName>
+        <description>The last name of the user generating the export.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The last name of the user generating the export.</inlineHelpText>
+        <label>Source Contact Last</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>hmisSourceContactPhone__c</fullName>
+        <description>The phone number of the user generating the report</description>
+        <inlineHelpText>The phone number of the user generating the report</inlineHelpText>
+        <label>Source Contact Phone</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>hmisSourceID__c</fullName>
+        <description>Identify the HUD CoC Code of the HMIS implementation from which data are being exported in the format of two letters, a dash, and 3 numbers.  Examples: CA-500, GA-502, MD-503, etc.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identify the HUD CoC Code of the HMIS implementation from which data are being exported in the format of two letters, a dash, and 3 numbers.  Examples: CA-500, GA-502, MD-503, etc.</inlineHelpText>
+        <label>Source ID</label>
+        <length>6</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>hmisSourceName__c</fullName>
+        <description>If the source database is not an HMIS implementation (if SourceType &lt;&gt; 1), this field may not be null and must identify the organization responsible for the database.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If the source database is not an HMIS implementation (if SourceType &lt;&gt; 1), this field may not be null and must identify the organization responsible for the database.</inlineHelpText>
+        <label>Source Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>hmisSourceType__c</fullName>
+        <defaultValue>1</defaultValue>
+        <description>Identifies whether the source database is a continuum-operated HMIS (1), an agency-specific database (2), a data warehouse (3), or other (4). An HMIS instance operated jointly by more than one continuum should be identified as a data warehouse when the CoC export parameter is not used to limit the export to a single CoC.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies whether the source database is a continuum-operated HMIS (1), an agency-specific database (2), a data warehouse (3), or other (4). An HMIS instance operated jointly by more than one continuum should be identified as a data warehouse when the CoC export parameter is not used to limit the export to a single CoC.</inlineHelpText>
+        <label>Source Type</label>
+        <precision>1</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>HMIS CSV Export</label>
+    <visibility>Public</visibility>
+</CustomObject>

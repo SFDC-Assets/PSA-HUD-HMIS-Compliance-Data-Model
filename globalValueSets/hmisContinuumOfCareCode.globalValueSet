@@ -1,0 +1,1936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AK-500</fullName>
+        <default>false</default>
+        <label>Anchorage CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>AK-501</fullName>
+        <default>false</default>
+        <label>Alaska Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>AL-500</fullName>
+        <default>false</default>
+        <label>Birmingham/Jefferson, St. Clair,Shelby Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>AL-501</fullName>
+        <default>false</default>
+        <label>Mobile City &amp; County/Baldwin County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>AL-502</fullName>
+        <default>false</default>
+        <label>Florence/Northwest Alabama CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>AL-503</fullName>
+        <default>false</default>
+        <label>Huntsville/North Alabama CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>AL-504</fullName>
+        <default>false</default>
+        <label>Montgomery City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>AL-505</fullName>
+        <default>false</default>
+        <label>Gadsden/Northeast Alabama CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>AL-506</fullName>
+        <default>false</default>
+        <label>Tuscaloosa City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>AL-507</fullName>
+        <default>false</default>
+        <label>Alabama Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>AR-500</fullName>
+        <default>false</default>
+        <label>Little Rock/Central Arkansas CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>AR-501</fullName>
+        <default>false</default>
+        <label>Fayetteville/Northwest Arkansas CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>AR-503</fullName>
+        <default>false</default>
+        <label>Arkansas Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>AR-505</fullName>
+        <default>false</default>
+        <label>Southeast Arkansas CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>AR-508</fullName>
+        <default>false</default>
+        <label>Fort Smith CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>AS-500</fullName>
+        <default>false</default>
+        <label>American Samoa CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>AZ-500</fullName>
+        <default>false</default>
+        <label>Arizona Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>AZ-501</fullName>
+        <default>false</default>
+        <label>Tucson/Pima County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>AZ-502</fullName>
+        <default>false</default>
+        <label>Phoenix,Mesa/Maricopa County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-500</fullName>
+        <default>false</default>
+        <label>San Jose/Santa Clara City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-501</fullName>
+        <default>false</default>
+        <label>San Francisco CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-502</fullName>
+        <default>false</default>
+        <label>Oakland, Berkeley/Alameda County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-503</fullName>
+        <default>false</default>
+        <label>Sacramento City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-504</fullName>
+        <default>false</default>
+        <label>Santa Rosa, Petaluma/Sonoma County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-505</fullName>
+        <default>false</default>
+        <label>Contra Costa County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-506</fullName>
+        <default>false</default>
+        <label>Salinas/Monterey, San Benito Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-507</fullName>
+        <default>false</default>
+        <label>Marin County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-508</fullName>
+        <default>false</default>
+        <label>Watsonville/Santa Cruz City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-509</fullName>
+        <default>false</default>
+        <label>Mendocino County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-510</fullName>
+        <default>false</default>
+        <label>Turlock, Modesto/Stanislaus County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-511</fullName>
+        <default>false</default>
+        <label>Stockton/San Joaquin County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-512</fullName>
+        <default>false</default>
+        <label>Daly City/San Mateo County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-513</fullName>
+        <default>false</default>
+        <label>Visalia/Kings, Tulare Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-514</fullName>
+        <default>false</default>
+        <label>Fresno City &amp; County/Madera County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-515</fullName>
+        <default>false</default>
+        <label>Roseville, Rocklin/Placer County</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-516</fullName>
+        <default>false</default>
+        <label>Redding/Shasta Siskiyou, Lassen, Plumas, Del Norte, Modo, Sierra Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-517</fullName>
+        <default>false</default>
+        <label>Napa City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-518</fullName>
+        <default>false</default>
+        <label>Vallejo/Solano County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-519</fullName>
+        <default>false</default>
+        <label>Chico, Paradise/Butte County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-520</fullName>
+        <default>false</default>
+        <label>Merced City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-521</fullName>
+        <default>false</default>
+        <label>Davis, Woodland/Yolo County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-522</fullName>
+        <default>false</default>
+        <label>Humboldt County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-523</fullName>
+        <default>false</default>
+        <label>Colusa, Glen, Trinity Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-524</fullName>
+        <default>false</default>
+        <label>Yuba City &amp; County/Sutter County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-525</fullName>
+        <default>false</default>
+        <label>El Dorado County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-526</fullName>
+        <default>false</default>
+        <label>Amador, Calaveras, Mariposa, Tuolumne Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-527</fullName>
+        <default>false</default>
+        <label>Tehama County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-529</fullName>
+        <default>false</default>
+        <label>Lake County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-530</fullName>
+        <default>false</default>
+        <label>Alpine, Inyo, Mono Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-531</fullName>
+        <default>false</default>
+        <label>Nevada County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-600</fullName>
+        <default>false</default>
+        <label>Los Angeles City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-601</fullName>
+        <default>false</default>
+        <label>San Diego City and County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-602</fullName>
+        <default>false</default>
+        <label>Santa Ana, Anaheim/Orange County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-603</fullName>
+        <default>false</default>
+        <label>Santa Maria/Santa Barbara County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-604</fullName>
+        <default>false</default>
+        <label>Bakersfield/Kern County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-606</fullName>
+        <default>false</default>
+        <label>Long Beach CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-607</fullName>
+        <default>false</default>
+        <label>Pasadena CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-608</fullName>
+        <default>false</default>
+        <label>Riverside City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-609</fullName>
+        <default>false</default>
+        <label>San Bernardino City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-611</fullName>
+        <default>false</default>
+        <label>Oxnard, San Buenaventura/Ventura County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-612</fullName>
+        <default>false</default>
+        <label>Glendale CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-613</fullName>
+        <default>false</default>
+        <label>Imperial County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-614</fullName>
+        <default>false</default>
+        <label>San Luis Obispo County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CO-500</fullName>
+        <default>false</default>
+        <label>Colorado Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CO-503</fullName>
+        <default>false</default>
+        <label>Metropolitan Denver CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CO-504</fullName>
+        <default>false</default>
+        <label>Colorado Springs/El Paso County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CO-505</fullName>
+        <default>false</default>
+        <label>Fort Collins, Greeley, Loveland/Larimer, Weld Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CT-503</fullName>
+        <default>false</default>
+        <label>Bridgeport, Stamford, Norwalk, Danbury/Fairfield County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>CT-505</fullName>
+        <default>false</default>
+        <label>Connecticut Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>DC-500</fullName>
+        <default>false</default>
+        <label>District of Columbia CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>DE-500</fullName>
+        <default>false</default>
+        <label>Delaware Statewide CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>FL-500</fullName>
+        <default>false</default>
+        <label>Sarasota, Bradenton/Manatee, Sarasota Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>FL-501</fullName>
+        <default>false</default>
+        <label>Tampa/Hillsborough County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>FL-502</fullName>
+        <default>false</default>
+        <label>St. Petersburg, Clearwater, Largo/Pinellas County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>FL-503</fullName>
+        <default>false</default>
+        <label>Lakeland/Polk County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>FL-504</fullName>
+        <default>false</default>
+        <label>Deltona, Daytona Beach/Volusia, Flagler Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>FL-505</fullName>
+        <default>false</default>
+        <label>Fort Walton Beach/Okaloosa, Walton Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>FL-506</fullName>
+        <default>false</default>
+        <label>Tallahassee/Leon County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>FL-507</fullName>
+        <default>false</default>
+        <label>Orlando/Orange, Osceola, Seminole Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>FL-508</fullName>
+        <default>false</default>
+        <label>Gainesville/Alachua,Putnam Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>FL-509</fullName>
+        <default>false</default>
+        <label>Fort Pierce/St. Lucie, Indian River, Martin Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>FL-510</fullName>
+        <default>false</default>
+        <label>Jacksonville-Duval, Clay Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>FL-511</fullName>
+        <default>false</default>
+        <label>Pensacola/Escambia, Santa Rosa Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>FL-512</fullName>
+        <default>false</default>
+        <label>St. Johns County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>FL-513</fullName>
+        <default>false</default>
+        <label>Palm Bay, Melbourne/Brevard County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>FL-514</fullName>
+        <default>false</default>
+        <label>Ocala/Marion County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>FL-515</fullName>
+        <default>false</default>
+        <label>Panama City/Bay, Jackson Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>FL-517</fullName>
+        <default>false</default>
+        <label>Hendry, Hardee, Highlands Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>FL-518</fullName>
+        <default>false</default>
+        <label>Columbia, Hamilton, Lafayette, Suwannee Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>FL-519</fullName>
+        <default>false</default>
+        <label>Pasco County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>FL-520</fullName>
+        <default>false</default>
+        <label>Citrus, Hernando, Lake, Sumter Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>FL-600</fullName>
+        <default>false</default>
+        <label>Miami-Dade County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>FL-601</fullName>
+        <default>false</default>
+        <label>Ft Lauderdale/Broward County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>FL-602</fullName>
+        <default>false</default>
+        <label>Charlotte County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>FL-603</fullName>
+        <default>false</default>
+        <label>Ft Myers, Cape Coral/Lee County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>FL-604</fullName>
+        <default>false</default>
+        <label>Monroe County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>FL-605</fullName>
+        <default>false</default>
+        <label>West Palm Beach/Palm Beach County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>FL-606</fullName>
+        <default>false</default>
+        <label>Naples/Collier County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>GA-500</fullName>
+        <default>false</default>
+        <label>Atlanta CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>GA-501</fullName>
+        <default>false</default>
+        <label>Georgia Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>GA-502</fullName>
+        <default>false</default>
+        <label>Fulton County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>GA-503</fullName>
+        <default>false</default>
+        <label>Athens-Clarke County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>GA-504</fullName>
+        <default>false</default>
+        <label>Augusta-Richmond County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>GA-505</fullName>
+        <default>false</default>
+        <label>Columbus-Muscogee/Russell County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>GA-506</fullName>
+        <default>false</default>
+        <label>Marietta/Cobb County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>GA-507</fullName>
+        <default>false</default>
+        <label>Savannah/Chatham County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>GA-508</fullName>
+        <default>false</default>
+        <label>DeKalb County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>GU-500</fullName>
+        <default>false</default>
+        <label>Guam CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>HI-500</fullName>
+        <default>false</default>
+        <label>Hawaii Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>HI-501</fullName>
+        <default>false</default>
+        <label>Honolulu City and County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>IA-500</fullName>
+        <default>false</default>
+        <label>Sioux City/Dakota, Woodbury Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>IA-501</fullName>
+        <default>false</default>
+        <label>Iowa Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>IA-502</fullName>
+        <default>false</default>
+        <label>Des Moines/Polk County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>ID-500</fullName>
+        <default>false</default>
+        <label>Boise/Ada County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>ID-501</fullName>
+        <default>false</default>
+        <label>Idaho Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>IL-500</fullName>
+        <default>false</default>
+        <label>McHenry County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>IL-501</fullName>
+        <default>false</default>
+        <label>Rockford/DeKalb, Winnebago, Boone Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>IL-502</fullName>
+        <default>false</default>
+        <label>Waukegan, North Chicago/Lake County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>IL-503</fullName>
+        <default>false</default>
+        <label>Champaign, Urbana, Rantoul/Champaign County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>IL-504</fullName>
+        <default>false</default>
+        <label>Madison County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>IL-506</fullName>
+        <default>false</default>
+        <label>Joliet, Bolingbrook/Will County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>IL-507</fullName>
+        <default>false</default>
+        <label>Peoria, Pekin/Fulton, Tazewell, Peoria, Woodford Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>IL-508</fullName>
+        <default>false</default>
+        <label>East St. Louis, Belleville/St. Clair County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>IL-510</fullName>
+        <default>false</default>
+        <label>Chicago CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>IL-511</fullName>
+        <default>false</default>
+        <label>Cook County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>IL-512</fullName>
+        <default>false</default>
+        <label>Bloomington/Central Illinois CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>IL-513</fullName>
+        <default>false</default>
+        <label>Springfield/Sangamon County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>IL-514</fullName>
+        <default>false</default>
+        <label>DuPage County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>IL-515</fullName>
+        <default>false</default>
+        <label>South Central Illinois CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>IL-516</fullName>
+        <default>false</default>
+        <label>Decatur/Macon County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>IL-517</fullName>
+        <default>false</default>
+        <label>Aurora, Elgin/Kane County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>IL-518</fullName>
+        <default>false</default>
+        <label>Rock Island, Moline/Northwestern Illinois CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>IL-519</fullName>
+        <default>false</default>
+        <label>West Central Illinois CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>IL-520</fullName>
+        <default>false</default>
+        <label>Southern Illinois CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>IN-502</fullName>
+        <default>false</default>
+        <label>Indiana Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>IN-503</fullName>
+        <default>false</default>
+        <label>Indianapolis CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>KS-502</fullName>
+        <default>false</default>
+        <label>Wichita/Sedgwick County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>KS-503</fullName>
+        <default>false</default>
+        <label>Topeka/Shawnee County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>KS-505</fullName>
+        <default>false</default>
+        <label>Overland Park, Shawnee/Johnson County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>KS-507</fullName>
+        <default>false</default>
+        <label>Kansas Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>KY-500</fullName>
+        <default>false</default>
+        <label>Kentucky Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>KY-501</fullName>
+        <default>false</default>
+        <label>Louisville-Jefferson County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>KY-502</fullName>
+        <default>false</default>
+        <label>Lexington-Fayette County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>LA-500</fullName>
+        <default>false</default>
+        <label>Lafayette/Acadiana Regional CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>LA-502</fullName>
+        <default>false</default>
+        <label>Shreveport, Bossier/Northwest Louisiana CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>LA-503</fullName>
+        <default>false</default>
+        <label>New Orleans/Jefferson Parish CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>LA-505</fullName>
+        <default>false</default>
+        <label>Monroe/Northeast Louisiana CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>LA-506</fullName>
+        <default>false</default>
+        <label>Slidell/Southeast Louisiana CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>LA-507</fullName>
+        <default>false</default>
+        <label>Alexandria/Central Louisiana CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>LA-509</fullName>
+        <default>false</default>
+        <label>Louisiana Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MA-500</fullName>
+        <default>false</default>
+        <label>Boston CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MA-502</fullName>
+        <default>false</default>
+        <label>Lynn CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MA-503</fullName>
+        <default>false</default>
+        <label>Cape Cod Islands CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MA-504</fullName>
+        <default>false</default>
+        <label>Springfield/Hampden County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MA-505</fullName>
+        <default>false</default>
+        <label>New Bedford CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MA-506</fullName>
+        <default>false</default>
+        <label>Worcester City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MA-507</fullName>
+        <default>false</default>
+        <label>Pittsfield/Berkshire, Franklin, Hampshire Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MA-509</fullName>
+        <default>false</default>
+        <label>Cambridge CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MA-511</fullName>
+        <default>false</default>
+        <label>Quincy, Brockton, Weymouth, Plymouth City and County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MA-515</fullName>
+        <default>false</default>
+        <label>Fall River CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MA-516</fullName>
+        <default>false</default>
+        <label>Massachusetts Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MA-519</fullName>
+        <default>false</default>
+        <label>Attleboro, Taunton/Bristol County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MD-501</fullName>
+        <default>false</default>
+        <label>Baltimore CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MD-503</fullName>
+        <default>false</default>
+        <label>Annapolis/Anne Arundel County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MD-504</fullName>
+        <default>false</default>
+        <label>Howard County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MD-505</fullName>
+        <default>false</default>
+        <label>Baltimore County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MD-506</fullName>
+        <default>false</default>
+        <label>Carroll County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MD-511</fullName>
+        <default>false</default>
+        <label>Mid-Shore Regional CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MD-513</fullName>
+        <default>false</default>
+        <label>Wicomico, Somerset, Worcester Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MD-514</fullName>
+        <default>false</default>
+        <label>Maryland Balance of Sate</label>
+    </customValue>
+    <customValue>
+        <fullName>MD-600</fullName>
+        <default>false</default>
+        <label>Prince George&apos;s County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MD-601</fullName>
+        <default>false</default>
+        <label>Montgomery County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>ME-500</fullName>
+        <default>false</default>
+        <label>Maine Statewide CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MI-500</fullName>
+        <default>false</default>
+        <label>Michigan Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MI-501</fullName>
+        <default>false</default>
+        <label>Detroit CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MI-502</fullName>
+        <default>false</default>
+        <label>Dearborn, Dearborn Heights, Westland/Wayne County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MI-503</fullName>
+        <default>false</default>
+        <label>St. Clair Shores, Warren/Macomb County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MI-504</fullName>
+        <default>false</default>
+        <label>Pontiac, Royal Oak/Oakland County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MI-505</fullName>
+        <default>false</default>
+        <label>Flint/Genesee County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MI-506</fullName>
+        <default>false</default>
+        <label>Grand Rapids, Wyoming/Kent County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MI-507</fullName>
+        <default>false</default>
+        <label>Portage, Kalamazoo City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MI-508</fullName>
+        <default>false</default>
+        <label>Lansing, East Lansing/Ingham County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MI-509</fullName>
+        <default>false</default>
+        <label>Washtenaw County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MI-510</fullName>
+        <default>false</default>
+        <label>Saginaw City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MI-511</fullName>
+        <default>false</default>
+        <label>Lenawee County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MI-512</fullName>
+        <default>false</default>
+        <label>Grand Traverse, Antrim, Leelanau Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MI-514</fullName>
+        <default>false</default>
+        <label>Battle Creek/Calhoun County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MI-515</fullName>
+        <default>false</default>
+        <label>Monroe City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MI-516</fullName>
+        <default>false</default>
+        <label>Norton Shores, Muskegon City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MI-517</fullName>
+        <default>false</default>
+        <label>Jackson City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MI-518</fullName>
+        <default>false</default>
+        <label>Livingston County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MI-519</fullName>
+        <default>false</default>
+        <label>Holland/Ottawa County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MI-523</fullName>
+        <default>false</default>
+        <label>Eaton County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MN-500</fullName>
+        <default>false</default>
+        <label>Minneapolis/Hennepin County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MN-501</fullName>
+        <default>false</default>
+        <label>St. Paul/Ramsey County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MN-502</fullName>
+        <default>false</default>
+        <label>Rochester/Southeast Minnesota CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MN-503</fullName>
+        <default>false</default>
+        <label>Dakota, Anoka, Washington, Scott, Carver Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MN-504</fullName>
+        <default>false</default>
+        <label>Northeast Minnesota CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MN-505</fullName>
+        <default>false</default>
+        <label>St. Cloud/Central Minnesota CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MN-506</fullName>
+        <default>false</default>
+        <label>Northwest Minnesota CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MN-508</fullName>
+        <default>false</default>
+        <label>Moorhead/West Central Minnesota CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MN-509</fullName>
+        <default>false</default>
+        <label>Duluth/St. Louis County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MN-511</fullName>
+        <default>false</default>
+        <label>Southwest Minnesota CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MO-500</fullName>
+        <default>false</default>
+        <label>St. Louis County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MO-501</fullName>
+        <default>false</default>
+        <label>St. Louis CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MO-503</fullName>
+        <default>false</default>
+        <label>St. Charles, Lincoln, Warren Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MO-600</fullName>
+        <default>false</default>
+        <label>Springfield/Greene, Christian, Webster Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MO-602</fullName>
+        <default>false</default>
+        <label>Joplin/Jasper, Newton Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MO-603</fullName>
+        <default>false</default>
+        <label>St. Joseph/Andrew, Buchanan, DeKalb Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MO-604</fullName>
+        <default>false</default>
+        <label>Kansas City (MO &amp; KS), Independence, Lee’s Summit/Jackson, Wyandotte Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MO-606</fullName>
+        <default>false</default>
+        <label>Missouri Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MP-500</fullName>
+        <default>false</default>
+        <label>Northern Mariana Islands CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MS-500</fullName>
+        <default>false</default>
+        <label>Jackson/Rankin, Madison Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MS-501</fullName>
+        <default>false</default>
+        <label>Mississippi Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MS-503</fullName>
+        <default>false</default>
+        <label>Gulf Port/Gulf Coast Regional CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>MT-500</fullName>
+        <default>false</default>
+        <label>Montana Statewide CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NC-500</fullName>
+        <default>false</default>
+        <label>Winston-Salem/Forsyth County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NC-501</fullName>
+        <default>false</default>
+        <label>Asheville/Buncombe County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NC-502</fullName>
+        <default>false</default>
+        <label>Durham City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NC-503</fullName>
+        <default>false</default>
+        <label>North Carolina Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NC-504</fullName>
+        <default>false</default>
+        <label>Greensboro, High Point/Guilford County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NC-505</fullName>
+        <default>false</default>
+        <label>Charlotte/Mecklenburg County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NC-506</fullName>
+        <default>false</default>
+        <label>Wilmington/Brunswick, New Hanover, Pender Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NC-507</fullName>
+        <default>false</default>
+        <label>Raleigh/Wake County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NC-509</fullName>
+        <default>false</default>
+        <label>Gastonia/Cleveland, Gaston, Lincoln Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NC-511</fullName>
+        <default>false</default>
+        <label>Fayetteville/Cumberland County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NC-513</fullName>
+        <default>false</default>
+        <label>Chapel Hill/Orange County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NC-516</fullName>
+        <default>false</default>
+        <label>Northwest North Carolina CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>ND-500</fullName>
+        <default>false</default>
+        <label>North Dakota Statewide CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NE-500</fullName>
+        <default>false</default>
+        <label>Nebraska Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NE-501</fullName>
+        <default>false</default>
+        <label>Omaha, Council Bluffs CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NE-502</fullName>
+        <default>false</default>
+        <label>Lincoln CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NH-500</fullName>
+        <default>false</default>
+        <label>New Hampshire Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NH-501</fullName>
+        <default>false</default>
+        <label>Manchester CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NH-502</fullName>
+        <default>false</default>
+        <label>Nashua/Hillsborough County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NJ-500</fullName>
+        <default>false</default>
+        <label>Atlantic City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NJ-501</fullName>
+        <default>false</default>
+        <label>Bergen County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NJ-502</fullName>
+        <default>false</default>
+        <label>Burlington County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NJ-503</fullName>
+        <default>false</default>
+        <label>Camden City &amp; County/Gloucester, Cape May, Cumberland Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NJ-504</fullName>
+        <default>false</default>
+        <label>Newark/Essex County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NJ-506</fullName>
+        <default>false</default>
+        <label>Jersey City, Bayonne/Hudson County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NJ-507</fullName>
+        <default>false</default>
+        <label>New Brunswick/Middlesex County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NJ-508</fullName>
+        <default>false</default>
+        <label>Monmouth County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NJ-509</fullName>
+        <default>false</default>
+        <label>Morris County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NJ-510</fullName>
+        <default>false</default>
+        <label>Lakewood Township/Ocean County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NJ-511</fullName>
+        <default>false</default>
+        <label>Paterson/Passaic County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NJ-512</fullName>
+        <default>false</default>
+        <label>Salem County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NJ-513</fullName>
+        <default>false</default>
+        <label>Somerset County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NJ-514</fullName>
+        <default>false</default>
+        <label>Trenton/Mercer County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NJ-515</fullName>
+        <default>false</default>
+        <label>Elizabeth/Union County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NJ-516</fullName>
+        <default>false</default>
+        <label>Warren, Sussex, Hunterdon Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NM-500</fullName>
+        <default>false</default>
+        <label>Albuquerque CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NM-501</fullName>
+        <default>false</default>
+        <label>New Mexico Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NV-500</fullName>
+        <default>false</default>
+        <label>Las Vegas/Clark County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NV-501</fullName>
+        <default>false</default>
+        <label>Reno, Sparks/Washoe County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NV-502</fullName>
+        <default>false</default>
+        <label>Nevada Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NY-500</fullName>
+        <default>false</default>
+        <label>Rochester, Irondequoit, Greece/Monroe County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NY-501</fullName>
+        <default>false</default>
+        <label>Elmira/Steuben, Allegany, Livingston, Chemung, Schuyler Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NY-503</fullName>
+        <default>false</default>
+        <label>Albany City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NY-505</fullName>
+        <default>false</default>
+        <label>Syracuse, Auburn/Onondaga, Oswego, Cayuga Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NY-507</fullName>
+        <default>false</default>
+        <label>Schenectady City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NY-508</fullName>
+        <default>false</default>
+        <label>Buffalo, Niagara Falls/Erie, Niagara, Orleans, Genesee, Wyoming Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NY-510</fullName>
+        <default>false</default>
+        <label>Ithaca/Tompkins County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NY-511</fullName>
+        <default>false</default>
+        <label>Binghamton, Union Town/Broome, Otsego, Chenango, Delaware, Cortland, Tioga, Troy County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NY-513</fullName>
+        <default>false</default>
+        <label>Wayne, Ontario, Seneca, Yates Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NY-514</fullName>
+        <default>false</default>
+        <label>Jamestown, Dunkirk/Chautauqua County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NY-518</fullName>
+        <default>false</default>
+        <label>Utica, Rome/Oneida, Madison Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NY-519</fullName>
+        <default>false</default>
+        <label>Columbia, Greene Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NY-520</fullName>
+        <default>false</default>
+        <label>Franklin, Essex Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NY-522</fullName>
+        <default>false</default>
+        <label>Jefferson, Lewis, St. Lawrence Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NY-523</fullName>
+        <default>false</default>
+        <label>Glens Falls, Saratoga Springs/Saratoga, Washington, Warren, Hamilton Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NY-525</fullName>
+        <default>false</default>
+        <label>New York Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NY-600</fullName>
+        <default>false</default>
+        <label>New York City CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NY-601</fullName>
+        <default>false</default>
+        <label>Poughkeepsie/Dutchess County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NY-602</fullName>
+        <default>false</default>
+        <label>Newburgh, Middletown/Orange County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NY-603</fullName>
+        <default>false</default>
+        <label>Nassau, Suffolk Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NY-604</fullName>
+        <default>false</default>
+        <label>Yonkers, Mount Vernon/Westchester County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NY-606</fullName>
+        <default>false</default>
+        <label>Rockland County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>NY-608</fullName>
+        <default>false</default>
+        <label>Kingston/Ulster County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>OH-500</fullName>
+        <default>false</default>
+        <label>Cincinnati/Hamilton County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>OH-501</fullName>
+        <default>false</default>
+        <label>Toledo/Lucas County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>OH-502</fullName>
+        <default>false</default>
+        <label>Cleveland/Cuyahoga County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>OH-503</fullName>
+        <default>false</default>
+        <label>Columbus/Franklin County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>OH-504</fullName>
+        <default>false</default>
+        <label>Youngstown/Mahoning County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>OH-505</fullName>
+        <default>false</default>
+        <label>Dayton, Kettering/Montgomery County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>OH-506</fullName>
+        <default>false</default>
+        <label>Akron, Barberton/Summit County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>OH-507</fullName>
+        <default>false</default>
+        <label>Ohio Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>OH-508</fullName>
+        <default>false</default>
+        <label>Canton, Massillon, Alliance/Stark County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>OK-500</fullName>
+        <default>false</default>
+        <label>North Central Oklahoma CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>OK-501</fullName>
+        <default>false</default>
+        <label>Tulsa City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>OK-502</fullName>
+        <default>false</default>
+        <label>Oklahoma City CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>OK-503</fullName>
+        <default>false</default>
+        <label>Oklahoma Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>OK-504</fullName>
+        <default>false</default>
+        <label>Norman/Cleveland County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>OK-505</fullName>
+        <default>false</default>
+        <label>Northeast Oklahoma CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>OK-506</fullName>
+        <default>false</default>
+        <label>Southwest Oklahoma Regional CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>OK-507</fullName>
+        <default>false</default>
+        <label>Southeastern Oklahoma Regional CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>OR-500</fullName>
+        <default>false</default>
+        <label>Eugene, Springfield/Lane County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>OR-501</fullName>
+        <default>false</default>
+        <label>Portland, Gresham/Multnomah County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>OR-502</fullName>
+        <default>false</default>
+        <label>Medford, Ashland/Jackson County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>OR-503</fullName>
+        <default>false</default>
+        <label>Central Oregon CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>OR-504</fullName>
+        <default>false</default>
+        <label>Salem/Marion, Polk Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>OR-505</fullName>
+        <default>false</default>
+        <label>Oregon Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>OR-506</fullName>
+        <default>false</default>
+        <label>Hillsboro, Beaverton/Washington County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>OR-507</fullName>
+        <default>false</default>
+        <label>Clackamas County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>PA-500</fullName>
+        <default>false</default>
+        <label>Philadelphia CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>PA-501</fullName>
+        <default>false</default>
+        <label>Harrisburg/Dauphin County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>PA-502</fullName>
+        <default>false</default>
+        <label>Upper Darby, Chester, Haverford/Delaware County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>PA-503</fullName>
+        <default>false</default>
+        <label>Wilkes-Barre, Hazleton/ Luzerne County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>PA-504</fullName>
+        <default>false</default>
+        <label>Lower Merion, Norristown, Abington/Montgomery County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>PA-505</fullName>
+        <default>false</default>
+        <label>Chester County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>PA-506</fullName>
+        <default>false</default>
+        <label>Reading/Berks County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>PA-508</fullName>
+        <default>false</default>
+        <label>Scranton/Lackawanna County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>PA-509</fullName>
+        <default>false</default>
+        <label>Eastern Pennsylvania CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>PA-510</fullName>
+        <default>false</default>
+        <label>Lancaster City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>PA-511</fullName>
+        <default>false</default>
+        <label>Bristol, Bensalem/Bucks County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>PA-512</fullName>
+        <default>false</default>
+        <label>York City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>PA-600</fullName>
+        <default>false</default>
+        <label>Pittsburgh, McKeesport, Penn Hills/Allegheny County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>PA-601</fullName>
+        <default>false</default>
+        <label>Western Pennsylvania CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>PA-603</fullName>
+        <default>false</default>
+        <label>Beaver County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>PA-605</fullName>
+        <default>false</default>
+        <label>Erie City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>PR-502</fullName>
+        <default>false</default>
+        <label>Puerto Rico Balance of Commonwealth CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>PR-503</fullName>
+        <default>false</default>
+        <label>South-Southeast Puerto Rico CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>RI-500</fullName>
+        <default>false</default>
+        <label>Rhode Island Statewide CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>SC-500</fullName>
+        <default>false</default>
+        <label>Charleston/Low Country CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>SC-501</fullName>
+        <default>false</default>
+        <label>Greenville, Anderson, Spartanburg/Upstate CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>SC-502</fullName>
+        <default>false</default>
+        <label>Columbia/Midlands CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>SC-503</fullName>
+        <default>false</default>
+        <label>Sumter City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>SD-500</fullName>
+        <default>false</default>
+        <label>South Dakota Statewide CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>TN-500</fullName>
+        <default>false</default>
+        <label>Chattanooga/Southeast Tennessee CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>TN-501</fullName>
+        <default>false</default>
+        <label>Memphis/Shelby County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>TN-502</fullName>
+        <default>false</default>
+        <label>Knoxville/Knox County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>TN-503</fullName>
+        <default>false</default>
+        <label>Central Tennessee CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>TN-504</fullName>
+        <default>false</default>
+        <label>Nashville-Davidson County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>TN-506</fullName>
+        <default>false</default>
+        <label>Upper Cumberland CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>TN-507</fullName>
+        <default>false</default>
+        <label>Jackson/West Tennessee CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>TN-509</fullName>
+        <default>false</default>
+        <label>Appalachian Regional CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>TN-510</fullName>
+        <default>false</default>
+        <label>Murfreesboro/Rutherford County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>TN-512</fullName>
+        <default>false</default>
+        <label>Morristown/Blount, Sevier, Campbell, Cocke Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>TX-500</fullName>
+        <default>false</default>
+        <label>San Antonio/Bexar County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>TX-503</fullName>
+        <default>false</default>
+        <label>Austin/Travis County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>TX-600</fullName>
+        <default>false</default>
+        <label>Dallas City &amp; County, Irving CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>TX-601</fullName>
+        <default>false</default>
+        <label>Fort Worth, Arlington/Tarrant County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>TX-603</fullName>
+        <default>false</default>
+        <label>El Paso City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>TX-604</fullName>
+        <default>false</default>
+        <label>Waco/McLennan County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>TX-607</fullName>
+        <default>false</default>
+        <label>Texas Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>TX-611</fullName>
+        <default>false</default>
+        <label>Amarillo CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>TX-624</fullName>
+        <default>false</default>
+        <label>Wichita Falls/Wise, Palo Pinto, Wichita, Archer Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>TX-700</fullName>
+        <default>false</default>
+        <label>Houston, Pasadena, Conroe/Harris, Ft. Bend, Montgomery Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>TX-701</fullName>
+        <default>false</default>
+        <label>Bryan, College Station/Brazos Valley CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>UT-500</fullName>
+        <default>false</default>
+        <label>Salt Lake City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>UT-503</fullName>
+        <default>false</default>
+        <label>Utah Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>UT-504</fullName>
+        <default>false</default>
+        <label>Provo/Mountainland CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>VA-500</fullName>
+        <default>false</default>
+        <label>Richmond/Henrico, Chesterfield, Hanover Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>VA-501</fullName>
+        <default>false</default>
+        <label>Norfolk, Chesapeake, Suffolk/Isle of Wight, Southampton Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>VA-502</fullName>
+        <default>false</default>
+        <label>Roanoke City &amp; County, Salem CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>VA-503</fullName>
+        <default>false</default>
+        <label>Virginia Beach CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>VA-504</fullName>
+        <default>false</default>
+        <label>Charlottesville CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>VA-505</fullName>
+        <default>false</default>
+        <label>Newport News, Hampton/Virginia Peninsula CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>VA-507</fullName>
+        <default>false</default>
+        <label>Portsmouth CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>VA-508</fullName>
+        <default>false</default>
+        <label>Lynchburg CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>VA-513</fullName>
+        <default>false</default>
+        <label>Harrisonburg, Winchester/Western Virginia CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>VA-514</fullName>
+        <default>false</default>
+        <label>Fredericksburg/Spotsylvania, Stafford Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>VA-521</fullName>
+        <default>false</default>
+        <label>Virginia Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>VA-600</fullName>
+        <default>false</default>
+        <label>Arlington County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>VA-601</fullName>
+        <default>false</default>
+        <label>Fairfax County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>VA-602</fullName>
+        <default>false</default>
+        <label>Loudoun County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>VA-603</fullName>
+        <default>false</default>
+        <label>Alexandria CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>VA-604</fullName>
+        <default>false</default>
+        <label>Prince William County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>VI-500</fullName>
+        <default>false</default>
+        <label>Virgin Islands CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>VT-500</fullName>
+        <default>false</default>
+        <label>Vermont Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>VT-501</fullName>
+        <default>false</default>
+        <label>Burlington/Chittenden County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>WA-500</fullName>
+        <default>false</default>
+        <label>Seattle/King County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>WA-501</fullName>
+        <default>false</default>
+        <label>Washington Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>WA-502</fullName>
+        <default>false</default>
+        <label>Spokane City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>WA-503</fullName>
+        <default>false</default>
+        <label>Tacoma, Lakewood/Pierce County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>WA-504</fullName>
+        <default>false</default>
+        <label>Everett/Snohomish County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>WA-508</fullName>
+        <default>false</default>
+        <label>Vancouver/Clark County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>WI-500</fullName>
+        <default>false</default>
+        <label>Wisconsin Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>WI-501</fullName>
+        <default>false</default>
+        <label>Milwaukee City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>WI-502</fullName>
+        <default>false</default>
+        <label>Racine City &amp; County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>WI-503</fullName>
+        <default>false</default>
+        <label>Madison/Dane County CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>WV-500</fullName>
+        <default>false</default>
+        <label>Wheeling, Weirton Area CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>WV-501</fullName>
+        <default>false</default>
+        <label>Huntington/Cabell, Wayne Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>WV-503</fullName>
+        <default>false</default>
+        <label>Charleston/Kanawha, Putnam, Boone, Clay Counties CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>WV-508</fullName>
+        <default>false</default>
+        <label>West Virginia Balance of State CoC</label>
+    </customValue>
+    <customValue>
+        <fullName>WY-500</fullName>
+        <default>false</default>
+        <label>Wyoming Statewide CoC</label>
+    </customValue>
+    <description>HUD Continuum of Care Codes (geographic regions where care is coordinated)</description>
+    <masterLabel>CoC Code</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

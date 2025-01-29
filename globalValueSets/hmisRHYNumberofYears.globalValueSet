@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1:R11.A</fullName>
+        <default>false</default>
+        <label>Less than one year</label>
+    </customValue>
+    <customValue>
+        <fullName>2:R11.A</fullName>
+        <default>false</default>
+        <label>1 to 2 years</label>
+    </customValue>
+    <customValue>
+        <fullName>3:R11.A</fullName>
+        <default>false</default>
+        <label>3 to 5 or more years</label>
+    </customValue>
+    <description>RHYNumberofYears from R11.A of the HMIS CSV Format Specification</description>
+    <masterLabel>RHY Number of Years - R11.A</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

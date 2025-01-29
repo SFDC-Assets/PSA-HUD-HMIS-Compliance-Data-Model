@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This will allow you to quickly give users access to the objects, fields, record types, and page layouts to access the HMIS Accelerator</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>HMIS Accelerator Access</label>
+    <permissionSets>force__ActionPlans</permissionSets>
+    <permissionSets>force__AdvancedProgramManagement</permissionSets>
+    <permissionSets>force__BenefitManagementPermissionSetLicense</permissionSets>
+    <permissionSets>force__CaseReferralPsl</permissionSets>
+    <permissionSets>force__DynamicAssessmentPsl</permissionSets>
+    <permissionSets>force__LifeEventsAccessPSL</permissionSets>
+    <permissionSets>force__OmniStudioExecution</permissionSets>
+    <permissionSets>hmis</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

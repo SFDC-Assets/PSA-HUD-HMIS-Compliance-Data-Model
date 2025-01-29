@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1:R5.1</fullName>
+        <default>false</default>
+        <label>Attending school regularly</label>
+    </customValue>
+    <customValue>
+        <fullName>2:R5.1</fullName>
+        <default>false</default>
+        <label>Attending school irregularly</label>
+    </customValue>
+    <customValue>
+        <fullName>3:R5.1</fullName>
+        <default>false</default>
+        <label>Graduated from high school</label>
+    </customValue>
+    <customValue>
+        <fullName>4:R5.1</fullName>
+        <default>false</default>
+        <label>Obtained GED</label>
+    </customValue>
+    <customValue>
+        <fullName>5:R5.1</fullName>
+        <default>false</default>
+        <label>Dropped out</label>
+    </customValue>
+    <customValue>
+        <fullName>6:R5.1</fullName>
+        <default>false</default>
+        <label>Suspended</label>
+    </customValue>
+    <customValue>
+        <fullName>7:R5.1</fullName>
+        <default>false</default>
+        <label>Expelled</label>
+    </customValue>
+    <customValue>
+        <fullName>8:R5.1</fullName>
+        <default>false</default>
+        <label>Client doesn’t know</label>
+    </customValue>
+    <customValue>
+        <fullName>9:R5.1</fullName>
+        <default>false</default>
+        <label>Client prefers not to answer</label>
+    </customValue>
+    <customValue>
+        <fullName>99:R5.1</fullName>
+        <default>false</default>
+        <label>Data not collected</label>
+    </customValue>
+    <description>School Status from Section R5.1 of the HMIS CSV specification</description>
+    <masterLabel>School Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

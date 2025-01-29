@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1:R7.1</fullName>
+        <default>false</default>
+        <label>Excellent</label>
+    </customValue>
+    <customValue>
+        <fullName>2:R7.1</fullName>
+        <default>false</default>
+        <label>Very good</label>
+    </customValue>
+    <customValue>
+        <fullName>3:R7.1</fullName>
+        <default>false</default>
+        <label>Good</label>
+    </customValue>
+    <customValue>
+        <fullName>4:R7.1</fullName>
+        <default>false</default>
+        <label>Fair</label>
+    </customValue>
+    <customValue>
+        <fullName>5:R7.1</fullName>
+        <default>false</default>
+        <label>Poor</label>
+    </customValue>
+    <customValue>
+        <fullName>8:R7.1</fullName>
+        <default>false</default>
+        <label>Client doesn’t know</label>
+    </customValue>
+    <customValue>
+        <fullName>9:R7.1</fullName>
+        <default>false</default>
+        <label>Client prefers not to answer</label>
+    </customValue>
+    <customValue>
+        <fullName>99:R7.1</fullName>
+        <default>false</default>
+        <label>Data not collected</label>
+    </customValue>
+    <description>Health Status of Section R7.1 of the HMIS CSV Format Specification</description>
+    <masterLabel>Health Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

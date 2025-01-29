@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: CoC – Homelessness Prevention (High Performing Comm. Only)</label>
+    </customValue>
+    <customValue>
+        <fullName>2:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: CoC – Permanent Supportive Housing</label>
+    </customValue>
+    <customValue>
+        <fullName>3:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: CoC – Rapid Re-Housing</label>
+    </customValue>
+    <customValue>
+        <fullName>4:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: CoC – Supportive Services Only</label>
+    </customValue>
+    <customValue>
+        <fullName>5:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: CoC – Transitional Housing</label>
+    </customValue>
+    <customValue>
+        <fullName>6:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: CoC – Safe Haven</label>
+    </customValue>
+    <customValue>
+        <fullName>7:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: CoC – Single Room Occupancy (SRO)</label>
+    </customValue>
+    <customValue>
+        <fullName>8:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: ESG – Emergency Shelter (operating and/or essential services)</label>
+    </customValue>
+    <customValue>
+        <fullName>9:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: ESG – Homelessness Prevention</label>
+    </customValue>
+    <customValue>
+        <fullName>10:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: ESG – Rapid Rehousing</label>
+    </customValue>
+    <customValue>
+        <fullName>11:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: ESG – Street Outreach</label>
+    </customValue>
+    <customValue>
+        <fullName>13:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: HOPWA – Hotel/Motel Vouchers</label>
+    </customValue>
+    <customValue>
+        <fullName>14:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: HOPWA – Housing Information</label>
+    </customValue>
+    <customValue>
+        <fullName>15:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: HOPWA – Permanent Housing (facility based or TBRA)</label>
+    </customValue>
+    <customValue>
+        <fullName>16:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: HOPWA – Permanent Housing Placement</label>
+    </customValue>
+    <customValue>
+        <fullName>17:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: HOPWA – Short-Term Rent, Mortgage, Utility assistance</label>
+    </customValue>
+    <customValue>
+        <fullName>18:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: HOPWA – Short-Term Supportive Facility</label>
+    </customValue>
+    <customValue>
+        <fullName>19:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: HOPWA – Transitional Housing (facility based or TBRA)</label>
+    </customValue>
+    <customValue>
+        <fullName>20:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: HUD/VASH</label>
+    </customValue>
+    <customValue>
+        <fullName>21:2.06.1</fullName>
+        <default>false</default>
+        <label>HHS: PATH – Street Outreach &amp; Supportive Services Only</label>
+    </customValue>
+    <customValue>
+        <fullName>22:2.06.1</fullName>
+        <default>false</default>
+        <label>HHS: RHY – Basic Center Program (prevention and shelter)</label>
+    </customValue>
+    <customValue>
+        <fullName>23:2.06.1</fullName>
+        <default>false</default>
+        <label>HHS: RHY – Maternity Group Home for Pregnant and Parenting Youth</label>
+    </customValue>
+    <customValue>
+        <fullName>24:2.06.1</fullName>
+        <default>false</default>
+        <label>HHS: RHY – Transitional Living Program</label>
+    </customValue>
+    <customValue>
+        <fullName>25:2.06.1</fullName>
+        <default>false</default>
+        <label>HHS: RHY – Street Outreach Project</label>
+    </customValue>
+    <customValue>
+        <fullName>26:2.06.1</fullName>
+        <default>false</default>
+        <label>HHS: RHY – Demonstration Project</label>
+    </customValue>
+    <customValue>
+        <fullName>27:2.06.1</fullName>
+        <default>false</default>
+        <label>VA: CRS Contract Residential Services</label>
+    </customValue>
+    <customValue>
+        <fullName>30:2.06.1</fullName>
+        <default>false</default>
+        <label>VA: Community Contract Safe Haven Program</label>
+    </customValue>
+    <customValue>
+        <fullName>33:2.06.1</fullName>
+        <default>false</default>
+        <label>VA: Supportive Services for Veteran Families</label>
+    </customValue>
+    <customValue>
+        <fullName>34:2.06.1</fullName>
+        <default>false</default>
+        <label>N/A</label>
+    </customValue>
+    <customValue>
+        <fullName>35:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: Pay for Success</label>
+    </customValue>
+    <customValue>
+        <fullName>36:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: Public and Indian Housing (PIH) Programs</label>
+    </customValue>
+    <customValue>
+        <fullName>37:2.06.1</fullName>
+        <default>false</default>
+        <label>VA: Grant Per Diem – Bridge Housing</label>
+    </customValue>
+    <customValue>
+        <fullName>38:2.06.1</fullName>
+        <default>false</default>
+        <label>VA: Grant Per Diem – Low Demand</label>
+    </customValue>
+    <customValue>
+        <fullName>39:2.06.1</fullName>
+        <default>false</default>
+        <label>VA: Grant Per Diem – Hospital to Housing</label>
+    </customValue>
+    <customValue>
+        <fullName>40:2.06.1</fullName>
+        <default>false</default>
+        <label>VA: Grant Per Diem – Clinical Treatment</label>
+    </customValue>
+    <customValue>
+        <fullName>41:2.06.1</fullName>
+        <default>false</default>
+        <label>VA: Grant Per Diem – Service Intensive Transitional Housing</label>
+    </customValue>
+    <customValue>
+        <fullName>42:2.06.1</fullName>
+        <default>false</default>
+        <label>VA: Grant Per Diem – Transition in Place</label>
+    </customValue>
+    <customValue>
+        <fullName>43:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: CoC – Youth Homeless Demonstration Program (YHDP)</label>
+    </customValue>
+    <customValue>
+        <fullName>44:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: CoC – Joint Component TH/RRH</label>
+    </customValue>
+    <customValue>
+        <fullName>45:2.06.1</fullName>
+        <default>false</default>
+        <label>VA: Grant Per Diem – Case Management/Housing Retention</label>
+    </customValue>
+    <customValue>
+        <fullName>46:2.06.1</fullName>
+        <default>false</default>
+        <label>Local or Other Funding Source (Please Specify)</label>
+    </customValue>
+    <customValue>
+        <fullName>47:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: ESG – CV</label>
+    </customValue>
+    <customValue>
+        <fullName>48:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: HOPWA – CV</label>
+    </customValue>
+    <customValue>
+        <fullName>50:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: HOME</label>
+    </customValue>
+    <customValue>
+        <fullName>51:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: HOME (ARP)</label>
+    </customValue>
+    <customValue>
+        <fullName>52:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: PIH (Emergency Housing Voucher)</label>
+    </customValue>
+    <customValue>
+        <fullName>53:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: ESG – RUSH</label>
+    </customValue>
+    <customValue>
+        <fullName>54:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: Unsheltered Special NOFO</label>
+    </customValue>
+    <customValue>
+        <fullName>55:2.06.1</fullName>
+        <default>false</default>
+        <label>HUD: Rural Special NOFO</label>
+    </customValue>
+    <description>FundingSource from Section 2.06.1 of HUD HMIS CSV Format Specification</description>
+    <masterLabel>Funding Source</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

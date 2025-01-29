@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>API_CurrentlyFleeing__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT(CurrentlyFleeing__c ),FIND(&quot;:&quot;, TEXT( CurrentlyFleeing__c ))-1))</formula>
+        <label>API_CurrentlyFleeing</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_DataCollectionStage__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT(DataCollectionStage__c ),FIND(&quot;:&quot;, TEXT( DataCollectionStage__c ))-1))</formula>
+        <label>API_DataCollectionStage</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_DateDeleted__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK(DateDeleted__c)),
+
+TEXT(YEAR(DATEVALUE( DateDeleted__c )))&amp; &quot;-&quot;&amp;
+
+LPAD(TEXT(MONTH(DATEVALUE(DateDeleted__c))), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(DATEVALUE(DateDeleted__c))), 2, &quot;0&quot;)&amp; &quot; &quot;&amp;
+
+LEFT(RIGHT(text(DateDeleted__c),9),8),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_DateDeleted</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_DentalHealthStatus__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT(DentalHealthStatus__c),FIND(&quot;:&quot;, TEXT(DentalHealthStatus__c))-1))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_DentalHealthStatus</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_DomesticViolenceSurvivor__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( DomesticViolenceSurvivor__c ),FIND(&quot;:&quot;, TEXT( DomesticViolenceSurvivor__c ))-1))</formula>
+        <label>API_DomesticViolenceSurvivor</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_DueDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK( DueDate__c )),
+
+TEXT(YEAR(DueDate__c ))&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(MONTH(DueDate__c)), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(DueDate__c)), 2, &quot;0&quot;),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_DueDate</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_GeneralHealthStatus__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT(GeneralHealthStatus__c ),FIND(&quot;:&quot;, TEXT(GeneralHealthStatus__c))-1))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_GeneralHealthStatus</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_InformationDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK( InformationDate__c )),
+
+TEXT(YEAR( InformationDate__c ))&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(MONTH(InformationDate__c)), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(InformationDate__c)), 2, &quot;0&quot;),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_InformationDate</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_MentalHealthStatus__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT(MentalHealthStatus__c),FIND(&quot;:&quot;, TEXT(MentalHealthStatus__c))-1))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_MentalHealthStatus</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_PregnancyStatus__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT(PregnancyStatus__c ),FIND(&quot;:&quot;, TEXT( PregnancyStatus__c))-1))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_PregnancyStatus</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_WhenOccurred__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT(WhenOccurred__c),FIND(&quot;:&quot;, TEXT(WhenOccurred__c))-1))</formula>
+        <label>API_WhenOccurred</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CurrentlyFleeing__c</fullName>
+        <label>Currently Fleeing</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYesReasonsMissingData</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DataCollectionStage__c</fullName>
+        <label>Data Collection Stage</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisDataCollectionStage</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DateCreated__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(YEAR(DATEVALUE( CreatedDate )))&amp; &quot;-&quot;&amp;
+
+LPAD(TEXT(MONTH(DATEVALUE(CreatedDate))), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(DATEVALUE(CreatedDate))), 2, &quot;0&quot;)&amp; &quot; &quot;&amp;
+
+LEFT(RIGHT(text( CreatedDate ),9),8)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DateCreated</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DateDeleted__c</fullName>
+        <label>DateDeleted</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>DateUpdated__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK( LastModifiedDate )),
+
+TEXT(YEAR(DATEVALUE(LastModifiedDate )))&amp; &quot;-&quot;&amp;
+
+LPAD(TEXT(MONTH(DATEVALUE(LastModifiedDate))), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(DATEVALUE(LastModifiedDate))), 2, &quot;0&quot;)&amp; &quot; &quot;&amp;
+
+LEFT(RIGHT(text(LastModifiedDate),9),8),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DateUpdated</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DentalHealthStatus__c</fullName>
+        <label>Dental Health Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisHealthStatus</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DomesticViolenceSurvivor__c</fullName>
+        <label>Domestic Violence Survivor</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYesReasonsMissingData</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DueDate__c</fullName>
+        <label>Due Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ExportID__c</fullName>
+        <externalId>false</externalId>
+        <label>ExportID</label>
+        <length>32</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>GeneralHealthStatus__c</fullName>
+        <label>General Health Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisHealthStatus</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>InformationDate__c</fullName>
+        <label>Information Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>MentalHealthStatus__c</fullName>
+        <label>Mental Health Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisHealthStatus</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Participant__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Participant</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Health and DV</relationshipLabel>
+        <relationshipName>Health_and_DV</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PregnancyStatus__c</fullName>
+        <label>Pregnancy Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYesReasonsMissingData</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Program_Enrollment__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Program Enrollment</label>
+        <referenceTo>ProgramEnrollment</referenceTo>
+        <relationshipLabel>Health and DV</relationshipLabel>
+        <relationshipName>Health_and_DV</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>WhenOccurred__c</fullName>
+        <label>When Occurred</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisWhenDVOccurred</valueSetName>
+        </valueSet>
+    </fields>
+    <label>Health and DV</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Health and DV Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Health and DV</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

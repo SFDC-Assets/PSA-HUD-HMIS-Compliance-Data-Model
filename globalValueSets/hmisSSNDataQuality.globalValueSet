@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1:3.02.2</fullName>
+        <default>false</default>
+        <label>Full SSN reported</label>
+    </customValue>
+    <customValue>
+        <fullName>2:3.02.2</fullName>
+        <default>false</default>
+        <label>Approximate or partial SSN reported</label>
+    </customValue>
+    <customValue>
+        <fullName>3:3.02.2</fullName>
+        <default>false</default>
+        <label>Client doesn’t know</label>
+    </customValue>
+    <customValue>
+        <fullName>9:3.02.2</fullName>
+        <default>false</default>
+        <label>Client prefers not to answer</label>
+    </customValue>
+    <customValue>
+        <fullName>99:3.02.2</fullName>
+        <default>false</default>
+        <label>Data not collected</label>
+    </customValue>
+    <description>SSNDataQuality from Section 3.02.2 of HUD HMIS CSV Format Specification</description>
+    <masterLabel>SSN Data Quality</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1:4.20.2</fullName>
+        <default>false</default>
+        <label>Referral to Prevention Assistance project</label>
+    </customValue>
+    <customValue>
+        <fullName>2:4.20.2</fullName>
+        <default>false</default>
+        <label>Problem Solving/Diversion/Rapid Resolution intervention or service</label>
+    </customValue>
+    <customValue>
+        <fullName>3:4.20.2</fullName>
+        <default>false</default>
+        <label>Referral to scheduled Coordinated Entry Crisis Needs Assessment</label>
+    </customValue>
+    <customValue>
+        <fullName>4:4.20.2</fullName>
+        <default>false</default>
+        <label>Referral to scheduled Coordinated Entry Housing Needs Assessment</label>
+    </customValue>
+    <customValue>
+        <fullName>5:4.20.2</fullName>
+        <default>false</default>
+        <label>Referral to Post-placement/ follow-up case management</label>
+    </customValue>
+    <customValue>
+        <fullName>6:4.20.2</fullName>
+        <default>false</default>
+        <label>Referral to Street Outreach project or services</label>
+    </customValue>
+    <customValue>
+        <fullName>7:4.20.2</fullName>
+        <default>false</default>
+        <label>Referral to Housing Navigation project or services</label>
+    </customValue>
+    <customValue>
+        <fullName>8:4.20.2</fullName>
+        <default>false</default>
+        <label>Referral to Non-continuum services: Ineligible for continuum services</label>
+    </customValue>
+    <customValue>
+        <fullName>9:4.20.2</fullName>
+        <default>false</default>
+        <label>Referral to Non-continuum services: No availability in continuum services</label>
+    </customValue>
+    <customValue>
+        <fullName>10:4.20.2</fullName>
+        <default>false</default>
+        <label>Referral to Emergency Shelter bed opening</label>
+    </customValue>
+    <customValue>
+        <fullName>11:4.20.2</fullName>
+        <default>false</default>
+        <label>Referral to Transitional Housing bed/unit opening</label>
+    </customValue>
+    <customValue>
+        <fullName>12:4.20.2</fullName>
+        <default>false</default>
+        <label>Referral to Joint TH-RRH project/unit/resource opening</label>
+    </customValue>
+    <customValue>
+        <fullName>13:4.20.2</fullName>
+        <default>false</default>
+        <label>Referral to RRH project resource opening</label>
+    </customValue>
+    <customValue>
+        <fullName>14:4.20.2</fullName>
+        <default>false</default>
+        <label>Referral to PSH project resource opening</label>
+    </customValue>
+    <customValue>
+        <fullName>15:4.20.2</fullName>
+        <default>false</default>
+        <label>Referral to Other PH project/unit/resource opening</label>
+    </customValue>
+    <customValue>
+        <fullName>16:4.20.2</fullName>
+        <default>false</default>
+        <label>Referral to emergency assistance/flex fund/furniture assistance</label>
+    </customValue>
+    <customValue>
+        <fullName>18:4.20.2</fullName>
+        <default>false</default>
+        <label>Referral to a Housing Stability Voucher</label>
+    </customValue>
+    <description>Event from Section 4.20.2 of HUD HMIS CSV Format Specification</description>
+    <masterLabel>Event</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

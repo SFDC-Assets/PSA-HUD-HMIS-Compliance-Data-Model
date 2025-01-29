@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>0:V7.I</fullName>
+        <default>false</default>
+        <label>Not incarcerated</label>
+    </customValue>
+    <customValue>
+        <fullName>1:V7.I</fullName>
+        <default>false</default>
+        <label>Incarcerated once</label>
+    </customValue>
+    <customValue>
+        <fullName>2:V7.I</fullName>
+        <default>false</default>
+        <label>Incarcerated two or more times</label>
+    </customValue>
+    <customValue>
+        <fullName>99:V7.I</fullName>
+        <default>false</default>
+        <label>Data not collected</label>
+    </customValue>
+    <description>IncarceratedAdult from Section V7.I of the HUD HMIS CSV Format Specification</description>
+    <masterLabel>Incarcerated Adult</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

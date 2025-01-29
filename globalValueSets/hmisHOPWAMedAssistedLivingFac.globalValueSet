@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>0:2.02.8</fullName>
+        <default>false</default>
+        <label>No</label>
+    </customValue>
+    <customValue>
+        <fullName>1:2.02.8</fullName>
+        <default>false</default>
+        <label>Yes</label>
+    </customValue>
+    <customValue>
+        <fullName>2:2.02.8</fullName>
+        <default>false</default>
+        <label>Non-HOPWA Funded Project</label>
+    </customValue>
+    <description>HOPWAMedAssistedLivingFac from Section 2.02.8 of HUD HMIS CSV Format Specification</description>
+    <masterLabel>HOPWA Medical Assisted Living Facility</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

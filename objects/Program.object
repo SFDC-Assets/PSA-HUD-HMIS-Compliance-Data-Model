@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>API_AccessPoint__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( AccessPoint__c ),FIND(&quot;:&quot;, TEXT( AccessPoint__c ))-1))</formula>
+        <label>API_AccessPoint</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_ContinuumProject__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( hmisContinuumProject__c ),FIND(&quot;:&quot;, TEXT( hmisContinuumProject__c ))-1))</formula>
+        <label>API_ContinuumProject</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_CrisisAssessment__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( CrisisAssessment__c ),FIND(&quot;:&quot;, TEXT( CrisisAssessment__c ))-1))</formula>
+        <label>API_CrisisAssessment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_DateCreated__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(YEAR(DATEVALUE( CreatedDate )))&amp; &quot;-&quot;&amp;
+
+LPAD(TEXT(MONTH(DATEVALUE(CreatedDate))), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(DATEVALUE(CreatedDate))), 2, &quot;0&quot;)&amp; &quot; &quot;&amp;
+
+LEFT(RIGHT(text( CreatedDate ),9),8)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_DateCreated</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_DateDeleted__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK(DeletedDate__c)),
+
+TEXT(YEAR(DATEVALUE( DeletedDate__c )))&amp; &quot;-&quot;&amp;
+
+LPAD(TEXT(MONTH(DATEVALUE(DeletedDate__c))), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(DATEVALUE(DeletedDate__c))), 2, &quot;0&quot;)&amp; &quot; &quot;&amp;
+
+LEFT(RIGHT(text(DeletedDate__c),9),8),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_DateDeleted</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_DateUpdated__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK( LastModifiedDate )),
+
+TEXT(YEAR(DATEVALUE(LastModifiedDate )))&amp; &quot;-&quot;&amp;
+
+LPAD(TEXT(MONTH(DATEVALUE(LastModifiedDate))), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(DATEVALUE(LastModifiedDate))), 2, &quot;0&quot;)&amp; &quot; &quot;&amp;
+
+LEFT(RIGHT(text(LastModifiedDate),9),8),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_DateUpdated</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_DirectServices__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( DirectServices__c ),FIND(&quot;:&quot;, TEXT( DirectServices__c ))-1))</formula>
+        <label>API_DirectServices</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_HMISParticipationStatusEndDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK(HMISParticipationStatusEndDate__c)),
+
+TEXT(YEAR( HMISParticipationStatusEndDate__c))&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(MONTH(HMISParticipationStatusEndDate__c)), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(HMISParticipationStatusEndDate__c)), 2, &quot;0&quot;),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_HMISParticipationStatusEndDate</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_HMISParticipationStatusStartDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK( HMISParticipationStatusStartDate__c )),
+
+TEXT(YEAR( HMISParticipationStatusStartDate__c ))&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(MONTH(HMISParticipationStatusStartDate__c)), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(HMISParticipationStatusStartDate__c)), 2, &quot;0&quot;),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_HMISParticipationStatusStartDate</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_HMISParticipationType__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT(HMIS_Participation_Type__c),FIND(&quot;:&quot;, TEXT(HMIS_Participation_Type__c))-1))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_HMISParticipationType</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_HOPWAMedAssistedLivingFac__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT(hmisHOPWAMedAssistedLivingFac__c),FIND(&quot;:&quot;, TEXT(hmisHOPWAMedAssistedLivingFac__c))-1))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_HOPWAMedAssistedLivingFac</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_HousingAssessment__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( HousingAssessment__c ),FIND(&quot;:&quot;, TEXT( HousingAssessment__c ))-1))</formula>
+        <label>API_HousingAssessment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_HousingType__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT(hmisHousingType__c),FIND(&quot;:&quot;, TEXT(hmisHousingType__c))-1))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_HousingType</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_OperatingEndDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK( EndDate )),
+
+TEXT(YEAR( EndDate ))&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(MONTH(EndDate)), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(EndDate)), 2, &quot;0&quot;),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_OperatingEndDate</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_PITCount__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(hmisPITCount__c),&quot;&quot;, TEXT(hmisPITCount__c))</formula>
+        <label>API_PITCount</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_PreventionAssessment__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( PreventionAssessment__c ),FIND(&quot;:&quot;, TEXT( PreventionAssessment__c ))-1))</formula>
+        <label>API_PreventionAssessment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_ProjectCommonName__c</fullName>
+        <externalId>false</externalId>
+        <formula>hmisProjectCommonName__c</formula>
+        <label>API_ProjectCommonName</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_ProjectType__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( hmisProjectType__c ),FIND(&quot;:&quot;, TEXT( hmisProjectType__c))-1))</formula>
+        <label>API_ProjectType</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_RRHSubType__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT(RRHSubType__c ),FIND(&quot;:&quot;, TEXT(RRHSubType__c))-1))</formula>
+        <label>API_RRHSubType</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_ReceivesReferrals__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( ReceivesReferrals__c),FIND(&quot;:&quot;, TEXT( ReceivesReferrals__c))-1))</formula>
+        <label>API_ReceivesReferrals</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_ResidentialAffiliation__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( hmisResidentialAffiliation__c ),FIND(&quot;:&quot;, TEXT( hmisResidentialAffiliation__c))-1))</formula>
+        <label>API_ResidentialAffiliation</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_TargetPopulation__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( hmisTargetPopulation__c ),FIND(&quot;:&quot;, TEXT( hmisTargetPopulation__c ))-1))</formula>
+        <label>API_TargetPopulation</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APi_OperatingStartDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK( StartDate )),
+
+TEXT(YEAR( StartDate ))&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(MONTH(StartDate)), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(StartDate)), 2, &quot;0&quot;),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>APi_OperatingStartDate</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccessPoint__c</fullName>
+        <label>Access Point</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYes</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CEParticipationID__c</fullName>
+        <externalId>false</externalId>
+        <label>CE Participation ID</label>
+        <length>32</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CEParticipationStatusEndDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK(CE_Participation_End__c )),
+
+TEXT(YEAR(CE_Participation_End__c))&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(MONTH(CE_Participation_End__c)), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(CE_Participation_End__c)), 2, &quot;0&quot;),&quot;&quot;)</formula>
+        <label>CEParticipationStatusEndDate</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CEParticipationStatusStartDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK( CE_Participation_Start__c )),
+
+TEXT(YEAR( CE_Participation_Start__c  ))&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(MONTH(CE_Participation_Start__c )), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(CE_Participation_Start__c )), 2, &quot;0&quot;),&quot;&quot;)</formula>
+        <label>CEParticipationStatusStartDate</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CE_Participation_End__c</fullName>
+        <label>CE Participation End</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>CE_Participation_Start__c</fullName>
+        <label>CE Participation Start</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>CrisisAssessment__c</fullName>
+        <label>Crisis Assessment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYes</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DateCreated__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(YEAR(DATEVALUE( CreatedDate )))&amp; &quot;-&quot;&amp;
+
+LPAD(TEXT(MONTH(DATEVALUE(CreatedDate))), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(DATEVALUE(CreatedDate))), 2, &quot;0&quot;)&amp; &quot; &quot;&amp;
+
+LEFT(RIGHT(text( CreatedDate ),9),8)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DateCreated</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DateDeleted__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK(DeletedDate__c)),
+
+TEXT(YEAR(DATEVALUE( DeletedDate__c )))&amp; &quot;-&quot;&amp;
+
+LPAD(TEXT(MONTH(DATEVALUE(DeletedDate__c))), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(DATEVALUE(DeletedDate__c))), 2, &quot;0&quot;)&amp; &quot; &quot;&amp;
+
+LEFT(RIGHT(text(DeletedDate__c),9),8),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DateDeleted</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DateUpdated__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(YEAR(DATEVALUE( LastModifiedDate )))&amp; &quot;-&quot;&amp;
+
+LPAD(TEXT(MONTH(DATEVALUE(LastModifiedDate))), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(DATEVALUE(LastModifiedDate))), 2, &quot;0&quot;)&amp; &quot; &quot;&amp;
+
+LEFT(RIGHT(text( LastModifiedDate ),9),8)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DateUpdated</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DeletedDate__c</fullName>
+        <label>Deleted Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>DirectServices__c</fullName>
+        <label>Direct Services</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYes</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ExportID__c</fullName>
+        <externalId>false</externalId>
+        <label>ExportID</label>
+        <length>32</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HMISParticipationID__c</fullName>
+        <externalId>false</externalId>
+        <label>HMIS Participation ID</label>
+        <length>32</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HMISParticipationStatusEndDate__c</fullName>
+        <label>HMIS Participation End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>HMISParticipationStatusStartDate__c</fullName>
+        <label>HMIS Participation Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>HMIS_Participation_Type__c</fullName>
+        <label>HMIS Participation Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisHMISParticipationType</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HousingAssessment__c</fullName>
+        <label>Housing Assessment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYes</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OrganizationName__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>The agency or organization executing this project</description>
+        <inlineHelpText>The agency or organization executing this project</inlineHelpText>
+        <label>Organization Name</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Projects</relationshipLabel>
+        <relationshipName>Projects</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PreventionAssessment__c</fullName>
+        <label>Prevention Assessment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYes</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Project_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>Project Identifiers (project name and project ID) are collected to uniquely identify each project
+entering data into the HMIS. The Project ID is used to link project descriptor information in other data
+elements to the specific project, and also to link clients and their enrollment data to the project.</description>
+        <externalId>true</externalId>
+        <inlineHelpText>Project Identifiers (project name and project ID) are collected to uniquely identify each project
+entering data into the HMIS. The Project ID is used to link project descriptor information in other data
+elements to the specific project, and also to link clients and their enrollment data to the project.</inlineHelpText>
+        <label>Project ID</label>
+        <length>32</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>RRHSubType__c</fullName>
+        <label>RRH Sub Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisRRHSubType</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ReceivesReferrals__c</fullName>
+        <label>Receives Referrals</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYes</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>hmisContinuumProject__c</fullName>
+        <description>Is this a continuum project?</description>
+        <inlineHelpText>Is this a continuum project?</inlineHelpText>
+        <label>Continuum Project</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYes</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>hmisHOPWAMedAssistedLivingFac__c</fullName>
+        <description>Housing Opportunities for Persons With AIDS funded project is or is not a Medically Assisted Living Facility</description>
+        <inlineHelpText>Housing Opportunities for Persons With AIDS funded project is or is not a Medically Assisted Living Facility</inlineHelpText>
+        <label>HOPWA-Funded Med Assist Living Facility</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisHOPWAMedAssistedLivingFac</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>hmisHousingType__c</fullName>
+        <description>Whether a client is housed in a single project facility, or multiple locations, or leases or other occupancy agreements</description>
+        <inlineHelpText>Whether a client is housed in a single project facility, or multiple locations, or leases or other occupancy agreements</inlineHelpText>
+        <label>Housing Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisHousingType</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>hmisPITCount__c</fullName>
+        <description>A count of the active clients (both sheltered and unsheltered people) experiencing homelessness on a single night in January.  HUD requires that Continuums of Care conduct an annual count of homeless persons who are sheltered in emergency shelter and transitional housing on a single night. Continuums of Care also must conduct a count of unsheltered homeless persons every other year (odd numbered years).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A count of the active clients (both sheltered and unsheltered people) experiencing homelessness on a single night in January.  HUD requires that Continuums of Care conduct an annual count of homeless persons who are sheltered in emergency shelter and transitional housing on a single night. Continuums of Care also must conduct a count of unsheltered homeless persons every other year (odd numbered years).</inlineHelpText>
+        <label>Point-in-Time (PIT) Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>hmisProjectCommonName__c</fullName>
+        <description>The name by which this project is known throughout the community</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name by which this project is known throughout the community</inlineHelpText>
+        <label>Project Common Name</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>hmisProjectType__c</fullName>
+        <description>The type of HMIS project</description>
+        <inlineHelpText>The type of HMIS project</inlineHelpText>
+        <label>Project Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisProjectType</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>hmisRRHSubType__c</fullName>
+        <description>The type of Rapid Re-Housing (RRH) project (service only, housing, etc)</description>
+        <inlineHelpText>The type of Rapid Re-Housing (RRH) project (service only, housing, etc)</inlineHelpText>
+        <label>Rapid Re-Housing Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisRRHSubType</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>hmisResidentialAffiliation__c</fullName>
+        <description>Does HUD classify this Services Only project to be affiliated with a residential project?</description>
+        <inlineHelpText>Does HUD classify this Services Only project to be affiliated with a residential project?</inlineHelpText>
+        <label>Residential Affiliation</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYes</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>hmisTargetPopulation__c</fullName>
+        <description>Does this project serve domestic violence, persons affected by HIV/AIDS or some other target population?</description>
+        <inlineHelpText>Does this project serve domestic violence, persons affected by HIV/AIDS or some other target population?</inlineHelpText>
+        <label>Target Population</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisTargetPopulation</valueSetName>
+        </valueSet>
+    </fields>
+    <recordTypes>
+        <fullName>HMIS</fullName>
+        <active>true</active>
+        <label>HMIS</label>
+        <picklistValues>
+            <picklist>AccessPoint__c</picklist>
+            <values>
+                <fullName>0%3A1%2E10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1%3A1%2E10</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CrisisAssessment__c</picklist>
+            <values>
+                <fullName>0%3A1%2E10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1%3A1%2E10</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>DirectServices__c</picklist>
+            <values>
+                <fullName>0%3A1%2E10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1%3A1%2E10</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HMIS_Participation_Type__c</picklist>
+            <values>
+                <fullName>0%3A2%2E08%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1%3A2%2E08%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A2%2E08%2E1</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HousingAssessment__c</picklist>
+            <values>
+                <fullName>0%3A1%2E10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1%3A1%2E10</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PreventionAssessment__c</picklist>
+            <values>
+                <fullName>0%3A1%2E10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1%3A1%2E10</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>RRHSubType__c</picklist>
+            <values>
+                <fullName>1%3A2%2E02%2EA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A2%2E02%2EA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ReceivesReferrals__c</picklist>
+            <values>
+                <fullName>0%3A1%2E10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1%3A1%2E10</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Planned</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>hmisContinuumProject__c</picklist>
+            <values>
+                <fullName>0%3A1%2E10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1%3A1%2E10</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>hmisHOPWAMedAssistedLivingFac__c</picklist>
+            <values>
+                <fullName>0%3A2%2E02%2E8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1%3A2%2E02%2E8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A2%2E02%2E8</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>hmisHousingType__c</picklist>
+            <values>
+                <fullName>1%3A2%2E02%2ED</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A2%2E02%2ED</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A2%2E02%2ED</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>hmisProjectType__c</picklist>
+            <values>
+                <fullName>0%3A2%2E02%2E6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1%3A2%2E02%2E6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A2%2E02%2E6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A2%2E02%2E6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A2%2E02%2E6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>13%3A2%2E02%2E6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>14%3A2%2E02%2E6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A2%2E02%2E6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A2%2E02%2E6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A2%2E02%2E6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6%3A2%2E02%2E6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%3A2%2E02%2E6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3A2%2E02%2E6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3A2%2E02%2E6</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>hmisRRHSubType__c</picklist>
+            <values>
+                <fullName>1%3A2%2E02%2EA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A2%2E02%2EA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>hmisResidentialAffiliation__c</picklist>
+            <values>
+                <fullName>0%3A1%2E10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1%3A1%2E10</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>hmisTargetPopulation__c</picklist>
+            <values>
+                <fullName>1%3A2%2E07%2E7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A2%2E07%2E7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A2%2E07%2E7</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+</CustomObject>

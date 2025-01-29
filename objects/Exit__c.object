@@ -1,0 +1,1363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>API_AftercareProvided__c</fullName>
+        <externalId>false</externalId>
+        <formula>Text( Aftercare_Provided__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_AftercareProvided</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_AskedOrForcedToExchangeForSex__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM( LEFT( TEXT(   AskedOrForcedToExchangeForSex__c   ) , FIND( &quot;:&quot;, TEXT(  AskedOrForcedToExchangeForSex__c  ))-1) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_AskedOrForcedToExchangeForSex</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_AskedOrForcedToExchangeFor_SexPastTh__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM( LEFT( TEXT( AskedOrForcedToExchangeFor_SexPastThreeM__c ) , FIND( &quot;:&quot;, TEXT( AskedOrForcedToExchangeFor_SexPastThreeM__c ))-1) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_AkedOrForcedToExchangeFor SexPast3M</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_CMExitReason__c</fullName>
+        <externalId>false</externalId>
+        <formula>Text( CM_Exit_Reason__c )</formula>
+        <label>API_CMExitReason</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_CoercedToContinueWork__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM( LEFT( TEXT(  CoercedToContinueWork__c  ) , FIND( &quot;:&quot;, TEXT(  CoercedToContinueWork__c  ))-1) )</formula>
+        <label>API_CoercedToContinueWork</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_CounselingReceived__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( CounselingReceived__c),FIND(&quot;:&quot;, TEXT( CounselingReceived__c))-1))</formula>
+        <label>API_CounselingReceived</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_CountOfExchangeForSex__c</fullName>
+        <externalId>false</externalId>
+        <formula>Text(CountOfExchangeForSex__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_CountOfExchangeForSex</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_DestinationSafeClient__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM( LEFT( TEXT( DestinationSafeClient__c ) , FIND( &quot;:&quot;, TEXT(DestinationSafeClient__c ))-1) )</formula>
+        <label>API_DestinationSafeClient</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_DestinationSafeWorker__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT(DestinationSafeWorker__c),FIND(&quot;:&quot;, TEXT(DestinationSafeWorker__c))-1))</formula>
+        <label>API_DestinationSafeWorker</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_DestinationSubsidyType__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( DestinationSubsidyType__c ),FIND(&quot;:&quot;, TEXT( DestinationSubsidyType__c))-1))</formula>
+        <label>API_DestinationSubsidyType</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_Destination__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT(Destination__c),FIND(&quot;:&quot;, TEXT(Destination__c))-1))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_Destination</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_EarlyExitReason__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT(EarlyExitReason__c ),FIND(&quot;:&quot;, TEXT(EarlyExitReason__c))-1))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_EarlyExitReason</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_EmailSocialMedia__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT(EmailSocialMedia__c),FIND(&quot;:&quot;, TEXT(EmailSocialMedia__c))-1))</formula>
+        <label>API_EmailSocialMedia</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_ExchangeForSexPastThreeMo_nths__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM( LEFT( TEXT(ExchangeForSexPastThreeMonths__c ) , FIND( &quot;:&quot;, TEXT(ExchangeForSexPastThreeMonths__c ))-1) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_ExchangeForSexPastThreeMo nths</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_ExchangeForSex__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM( LEFT( TEXT( ExchangeForSex__c ) , FIND( &quot;:&quot;, TEXT(ExchangeForSex__c ))-1) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_ExchangeForSex</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_FamilyCounseling__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( FamilyCounseling__c ),FIND(&quot;:&quot;, TEXT( FamilyCounseling__c ))-1))</formula>
+        <label>API_FamilyCounseling</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_GroupCounseling__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( GroupCounseling__c ),FIND(&quot;:&quot;, TEXT( GroupCounseling__c))-1))</formula>
+        <label>API_GroupCounseling</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_HousingAssessment__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( HousingAssessment__c ),FIND(&quot;:&quot;, TEXT( HousingAssessment__c ))-1))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_HousingAssessment</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_InPersonGroup__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( InPersonGroup__c ),FIND(&quot;:&quot;, TEXT( InPersonGroup__c))-1))</formula>
+        <label>API_InPersonGroup</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_InPersonIndividual__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( InPersonIndividual__c ),FIND(&quot;:&quot;, TEXT( InPersonIndividual__c))-1))</formula>
+        <label>API_InPersonIndividual</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_IndividualCounseling__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( IndividualCounseling__c ),FIND(&quot;:&quot;, TEXT( IndividualCounseling__c))-1))</formula>
+        <label>API_IndividualCounseling</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_LaborExploitPastThreeMonths__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM( LEFT( TEXT(  LaborExploitPastThreeMonths__c  ) , FIND( &quot;:&quot;, TEXT(  LaborExploitPastThreeMonths__c ))-1) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_LaborExploitPastThreeMonths</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_OtherDestination__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK(  OtherDestination__c  )),( OtherDestination__c ),&quot;&quot;)</formula>
+        <label>API_OtherDestination</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_PosAdultConnections__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT(PosAdultConnections__c),FIND(&quot;:&quot;, TEXT(PosAdultConnections__c))-1))</formula>
+        <label>API_PosAdultConnections</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_PosCommunityConnections__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT(PosCommunityConnections__c),FIND(&quot;:&quot;, TEXT(PosCommunityConnections__c))-1))</formula>
+        <label>API_PosCommunityConnections</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_PosPeerConnections__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT(PosPeerConnections__c),FIND(&quot;:&quot;, TEXT(PosPeerConnections__c))-1))</formula>
+        <label>API_PosPeerConnections</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_PostExitCounselingPlan__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT(PostExitCounselingPlan__c),FIND(&quot;:&quot;, TEXT(PostExitCounselingPlan__c ))-1))</formula>
+        <label>API_PostExitCounselingPlan</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_ProjectCompletionStatus__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( ProjectCompletionStatus__c ),FIND(&quot;:&quot;, TEXT( ProjectCompletionStatus__c))-1))</formula>
+        <label>API_ProjectCompletionStatus</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_SessionsInPlan__c</fullName>
+        <externalId>false</externalId>
+        <formula>Text( SessionsInPlan__c )</formula>
+        <label>API_SessionsInPlan</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_SubsidyInformation__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( SubsidyInformation__c ),FIND(&quot;:&quot;, TEXT( SubsidyInformation__c ))-1))</formula>
+        <label>API_SubsidyInformation</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_Telephone__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( Telephone__c ),FIND(&quot;:&quot;, TEXT( Telephone__c ))-1))</formula>
+        <label>API_Telephone</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_WorkplacePromiseDifference__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM( LEFT( TEXT( WorkplacePromiseDifference__c ) , FIND( &quot;:&quot;, TEXT(WorkplacePromiseDifference__c ))-1) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_WorkplacePromiseDifference</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_WorkplaceViolenceThreats__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM( LEFT( TEXT(WorkplaceViolenceThreats__c ) , FIND( &quot;:&quot;, TEXT(WorkplaceViolenceThreats__c ))-1) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_WorkplaceViolenceThreats</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AftercareDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK(Aftercare_Date__c)),
+
+TEXT(YEAR( Aftercare_Date__c ))&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(MONTH(Aftercare_Date__c)), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(Aftercare_Date__c)), 2, &quot;0&quot;),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>AftercareDate</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Aftercare_Date__c</fullName>
+        <label>Aftercare Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Aftercare_Provided__c</fullName>
+        <label>Aftercare Provided</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>9</fullName>
+                    <default>false</default>
+                    <label>Client prefers not to answer</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>AskedOrForcedToExchangeForSex__c</fullName>
+        <label>Asked or Forced to Exchange for Sex</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>ExchangeForSex__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYesReasonsMissingData</valueSetName>
+            <valueSettings>
+                <controllingFieldValue>1:1.8</controllingFieldValue>
+                <valueName>0:1.8</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>1:1.8</controllingFieldValue>
+                <valueName>1:1.8</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>1:1.8</controllingFieldValue>
+                <valueName>8:1.8</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>1:1.8</controllingFieldValue>
+                <valueName>9:1.8</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>1:1.8</controllingFieldValue>
+                <valueName>99:1.8</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>AskedOrForcedToExchangeFor_SexPastThreeM__c</fullName>
+        <label>Asked/Forced Exchange Sex Past 3 Month</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>ExchangeForSex__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYesReasonsMissingData</valueSetName>
+            <valueSettings>
+                <controllingFieldValue>1:1.8</controllingFieldValue>
+                <valueName>0:1.8</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>1:1.8</controllingFieldValue>
+                <valueName>1:1.8</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>1:1.8</controllingFieldValue>
+                <valueName>8:1.8</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>1:1.8</controllingFieldValue>
+                <valueName>9:1.8</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>1:1.8</controllingFieldValue>
+                <valueName>99:1.8</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CM_Exit_Reason__c</fullName>
+        <label>CM Exit Reason</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>Accomplished goals and/or obtained services and no longer needs CM</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>Transferred to another HUD/VASH program site</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>Found/chose other housing</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>Did not comply with HUD/VASH CM</label>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>Eviction and/or other housing related issues</label>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                    <label>Unhappy with HUD/VASH housing</label>
+                </value>
+                <value>
+                    <fullName>7</fullName>
+                    <default>false</default>
+                    <label>No longer financially eligible for HUD/VASH voucher</label>
+                </value>
+                <value>
+                    <fullName>8</fullName>
+                    <default>false</default>
+                    <label>No longer interested in participating in this program</label>
+                </value>
+                <value>
+                    <fullName>9</fullName>
+                    <default>false</default>
+                    <label>Veteran cannot be located</label>
+                </value>
+                <value>
+                    <fullName>10</fullName>
+                    <default>false</default>
+                    <label>Veteran too ill to participate at this time</label>
+                </value>
+                <value>
+                    <fullName>11</fullName>
+                    <default>false</default>
+                    <label>Veteran is incarcerated</label>
+                </value>
+                <value>
+                    <fullName>12</fullName>
+                    <default>false</default>
+                    <label>Veteran is deceased</label>
+                </value>
+                <value>
+                    <fullName>13</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CoercedToContinueWork__c</fullName>
+        <label>Coerced to Continue Work</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYesReasonsMissingData</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CounselingReceived__c</fullName>
+        <label>Counseling Received</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYesMissing</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CountOfExchangeForSex__c</fullName>
+        <externalId>false</externalId>
+        <label>Count of Exchange for Sex</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DateCreated__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(YEAR(DATEVALUE( CreatedDate )))&amp; &quot;-&quot;&amp;
+
+LPAD(TEXT(MONTH(DATEVALUE(CreatedDate))), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(DATEVALUE(CreatedDate))), 2, &quot;0&quot;)&amp; &quot; &quot;&amp;
+
+LEFT(RIGHT(text( CreatedDate ),9),8)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DateCreated</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DateDeleted__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK(DeletedDate__c)),
+
+TEXT(YEAR(DATEVALUE( DeletedDate__c )))&amp; &quot;-&quot;&amp;
+
+LPAD(TEXT(MONTH(DATEVALUE(DeletedDate__c))), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(DATEVALUE(DeletedDate__c))), 2, &quot;0&quot;)&amp; &quot; &quot;&amp;
+
+LEFT(RIGHT(text(DeletedDate__c),9),8),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DateDeleted</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DateUpdated__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK( LastModifiedDate )),
+
+TEXT(YEAR(DATEVALUE(LastModifiedDate )))&amp; &quot;-&quot;&amp;
+
+LPAD(TEXT(MONTH(DATEVALUE(LastModifiedDate))), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(DATEVALUE(LastModifiedDate))), 2, &quot;0&quot;)&amp; &quot; &quot;&amp;
+
+LEFT(RIGHT(text(LastModifiedDate),9),8),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DateUpdated</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DeletedDate__c</fullName>
+        <label>Deleted Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>DestinationSafeClient__c</fullName>
+        <label>Destination Safe Client</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYesReasonsMissingData</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DestinationSafeWorker__c</fullName>
+        <label>Destination Safe Worker</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisWorkerResponse</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DestinationSubsidyType__c</fullName>
+        <label>Destination Subsidy Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Destination__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetName>hmisRentalSubsidyTypes</valueSetName>
+            <valueSettings>
+                <controllingFieldValue>116:3.12.1</controllingFieldValue>
+                <controllingFieldValue>101:3.12.1</controllingFieldValue>
+                <controllingFieldValue>118:3.12.1</controllingFieldValue>
+                <controllingFieldValue>215:3.12.1</controllingFieldValue>
+                <controllingFieldValue>206:3.12.1</controllingFieldValue>
+                <valueName>420:3.12.A</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DestinationType__c</fullName>
+        <label>Destination Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Homeless Situation</fullName>
+                    <default>false</default>
+                    <label>Homeless Situation</label>
+                </value>
+                <value>
+                    <fullName>Institutional Situations</fullName>
+                    <default>false</default>
+                    <label>Institutional Situations</label>
+                </value>
+                <value>
+                    <fullName>Temporary Housing Situation</fullName>
+                    <default>false</default>
+                    <label>Temporary Housing Situation</label>
+                </value>
+                <value>
+                    <fullName>Permanent Housing Situation</fullName>
+                    <default>false</default>
+                    <label>Permanent Housing Situation</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Destination__c</fullName>
+        <label>Destination</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>DestinationType__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetName>hmisLivingSituationOptionList</valueSetName>
+            <valueSettings>
+                <controllingFieldValue>Homeless Situation</controllingFieldValue>
+                <valueName>116:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Homeless Situation</controllingFieldValue>
+                <valueName>101:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Homeless Situation</controllingFieldValue>
+                <valueName>118:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Institutional Situations</controllingFieldValue>
+                <valueName>215:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Institutional Situations</controllingFieldValue>
+                <valueName>206:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Institutional Situations</controllingFieldValue>
+                <valueName>207:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Institutional Situations</controllingFieldValue>
+                <valueName>225:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Institutional Situations</controllingFieldValue>
+                <valueName>204:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Institutional Situations</controllingFieldValue>
+                <valueName>205:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Temporary Housing Situation</controllingFieldValue>
+                <valueName>302:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Temporary Housing Situation</controllingFieldValue>
+                <valueName>329:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Temporary Housing Situation</controllingFieldValue>
+                <valueName>314:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Temporary Housing Situation</controllingFieldValue>
+                <valueName>332:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Temporary Housing Situation</controllingFieldValue>
+                <valueName>312:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Temporary Housing Situation</controllingFieldValue>
+                <valueName>313:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Temporary Housing Situation</controllingFieldValue>
+                <valueName>327:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Permanent Housing Situation</controllingFieldValue>
+                <valueName>422:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Permanent Housing Situation</controllingFieldValue>
+                <valueName>423:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Permanent Housing Situation</controllingFieldValue>
+                <valueName>426:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Permanent Housing Situation</controllingFieldValue>
+                <valueName>410:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Permanent Housing Situation</controllingFieldValue>
+                <valueName>435:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Permanent Housing Situation</controllingFieldValue>
+                <valueName>421:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Permanent Housing Situation</controllingFieldValue>
+                <valueName>411:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>30:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>17:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>24:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>8:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>9:3.12.1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>99:3.12.1</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>EarlyExitReason__c</fullName>
+        <label>Early Exit Reason</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisExpelledReason</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>EmailSocialMedia__c</fullName>
+        <label>Email Social Media</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYesMissing</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>EnrollmentID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Program_Enrollment__r.Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>EnrollmentID</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ExchangeForSexPastThreeMonths__c</fullName>
+        <label>Exchange for Sex Past 3 Months</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>ExchangeForSex__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYesReasonsMissingData</valueSetName>
+            <valueSettings>
+                <controllingFieldValue>1:1.8</controllingFieldValue>
+                <valueName>0:1.8</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>1:1.8</controllingFieldValue>
+                <valueName>1:1.8</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>1:1.8</controllingFieldValue>
+                <valueName>8:1.8</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>1:1.8</controllingFieldValue>
+                <valueName>9:1.8</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>1:1.8</controllingFieldValue>
+                <valueName>99:1.8</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ExchangeForSex__c</fullName>
+        <label>Exchange for Sex</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYesReasonsMissingData</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ExitDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK( Exit_Date__c )),
+
+TEXT(YEAR( Exit_Date__c ))&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(MONTH(Exit_Date__c)), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(Exit_Date__c)), 2, &quot;0&quot;),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ExitDate</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Exit_Date__c</fullName>
+        <label>Exit Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ExportID__c</fullName>
+        <externalId>false</externalId>
+        <label>ExportID</label>
+        <length>32</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FamilyCounseling__c</fullName>
+        <label>Family Counseling</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYesMissing</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>GroupCounseling__c</fullName>
+        <label>Group Counseling</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYesMissing</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HousingAssessment__c</fullName>
+        <label>Housing Assessment</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisHousingAssessmentAtExit</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>InPersonGroup__c</fullName>
+        <label>In Person Group</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYesMissing</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>InPersonIndividual__c</fullName>
+        <label>In Person Individual</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYesMissing</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>IndividualCounseling__c</fullName>
+        <label>Individual Counseling</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYesMissing</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LaborExploitPastThreeMonths__c</fullName>
+        <label>Labor Exploit Past 3 Months</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYesReasonsMissingData</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OtherDestination__c</fullName>
+        <externalId>false</externalId>
+        <label>Other Destination</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Participant__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Participant</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Exit</relationshipLabel>
+        <relationshipName>Exit</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PersonalID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Program_Enrollment__r.AccountId</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>PersonalID</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PosAdultConnections__c</fullName>
+        <label>Pos Adult Connections</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisWorkerResponse</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PosCommunityConnections__c</fullName>
+        <label>Pos Community Connections</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisWorkerResponse</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PosPeerConnections__c</fullName>
+        <label>Pos Peer Connections</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisWorkerResponse</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PostExitCounselingPlan__c</fullName>
+        <label>Post Exit Counseling Plan</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYesMissing</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Program_Enrollment__c</fullName>
+        <label>Program Enrollment</label>
+        <referenceTo>ProgramEnrollment</referenceTo>
+        <relationshipLabel>Exit</relationshipLabel>
+        <relationshipName>Exit</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>ProjectCompletionStatus__c</fullName>
+        <label>Project Completion Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisProjectCompletionStatus</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SessionCountAtExit__c</fullName>
+        <externalId>false</externalId>
+        <label>Session Count at Exit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SessionsInPlan__c</fullName>
+        <externalId>false</externalId>
+        <label>Sessions in Plan</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SubsidyInformation__c</fullName>
+        <label>Subsidy Information</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisSubsidyInformation</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Telephone__c</fullName>
+        <label>Telephone</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYesMissing</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>WorkplacePromiseDifference__c</fullName>
+        <label>Workplace Promise Difference</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYesReasonsMissingData</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>WorkplaceViolenceThreats__c</fullName>
+        <label>Workplace Violence Threats</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYesReasonsMissingData</valueSetName>
+        </valueSet>
+    </fields>
+    <label>Exit</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>{00000}</displayFormat>
+        <label>Exit</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Exit</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1:W5.1</fullName>
+        <default>false</default>
+        <label>Able to maintain the housing they had at project entry</label>
+    </customValue>
+    <customValue>
+        <fullName>2:W5.1</fullName>
+        <default>false</default>
+        <label>Moved to new housing unit</label>
+    </customValue>
+    <customValue>
+        <fullName>3:W5.1</fullName>
+        <default>false</default>
+        <label>Moved in with family/friends on a temporary basis</label>
+    </customValue>
+    <customValue>
+        <fullName>4:W5.1</fullName>
+        <default>false</default>
+        <label>Moved in with family/friends on a permanent basis</label>
+    </customValue>
+    <customValue>
+        <fullName>5:W5.1</fullName>
+        <default>false</default>
+        <label>Moved to a transitional or temporary housing facility or program</label>
+    </customValue>
+    <customValue>
+        <fullName>6:W5.1</fullName>
+        <default>false</default>
+        <label>Client became homeless – moving to a shelter or other place unfit for human habitation</label>
+    </customValue>
+    <customValue>
+        <fullName>7:W5.1</fullName>
+        <default>false</default>
+        <label>Jail / prison</label>
+    </customValue>
+    <customValue>
+        <fullName>8:W5.1</fullName>
+        <default>false</default>
+        <label>Client doesn’t know</label>
+    </customValue>
+    <customValue>
+        <fullName>9:W5.1</fullName>
+        <default>false</default>
+        <label>Client prefers not to answer</label>
+    </customValue>
+    <customValue>
+        <fullName>10:W5.1</fullName>
+        <default>false</default>
+        <label>Deceased</label>
+    </customValue>
+    <customValue>
+        <fullName>99:W5.1</fullName>
+        <default>false</default>
+        <label>Data not collected</label>
+    </customValue>
+    <description>HousingAssessmentAtExit from Section W5.1 of the HUD HMIS CSV Format Specification</description>
+    <masterLabel>Housing Assessment At Exit</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

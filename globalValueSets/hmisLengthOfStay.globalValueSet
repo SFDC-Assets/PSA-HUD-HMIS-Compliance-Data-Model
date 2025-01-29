@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>2:3.917.2</fullName>
+        <default>false</default>
+        <label>One week or more, but less than one month</label>
+    </customValue>
+    <customValue>
+        <fullName>3:3.917.2</fullName>
+        <default>false</default>
+        <label>One month or more, but less than 90 days</label>
+    </customValue>
+    <customValue>
+        <fullName>4:3.917.2</fullName>
+        <default>false</default>
+        <label>90 days or more but less than one year</label>
+    </customValue>
+    <customValue>
+        <fullName>5:3.917.2</fullName>
+        <default>false</default>
+        <label>One year or longer</label>
+    </customValue>
+    <customValue>
+        <fullName>8:3.917.2</fullName>
+        <default>false</default>
+        <label>Client doesn’t know</label>
+    </customValue>
+    <customValue>
+        <fullName>9:3.917.2</fullName>
+        <default>false</default>
+        <label>Client prefers not to answer</label>
+    </customValue>
+    <customValue>
+        <fullName>10:3.917.2</fullName>
+        <default>false</default>
+        <label>One night or less</label>
+    </customValue>
+    <customValue>
+        <fullName>11:3.917.2</fullName>
+        <default>false</default>
+        <label>Two to six nights</label>
+    </customValue>
+    <customValue>
+        <fullName>99:3.917.2</fullName>
+        <default>false</default>
+        <label>Data not collected</label>
+    </customValue>
+    <description>LengthOfStay from Section 3.917.2 of HUD HMIS CSV Format Specification</description>
+    <masterLabel>Length Of Stay</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1:R1.1</fullName>
+        <default>false</default>
+        <label>Self-Referral</label>
+    </customValue>
+    <customValue>
+        <fullName>2:R1.1</fullName>
+        <default>false</default>
+        <label>Individual: Parent/Guardian/Relative/Friend/Foster Parent/Other Individual</label>
+    </customValue>
+    <customValue>
+        <fullName>7:R1.1</fullName>
+        <default>false</default>
+        <label>Outreach Project</label>
+    </customValue>
+    <customValue>
+        <fullName>11:R1.1</fullName>
+        <default>false</default>
+        <label>Temporary Shelter</label>
+    </customValue>
+    <customValue>
+        <fullName>18:R1.1</fullName>
+        <default>false</default>
+        <label>Residential Project</label>
+    </customValue>
+    <customValue>
+        <fullName>28:R1.1</fullName>
+        <default>false</default>
+        <label>Hotline</label>
+    </customValue>
+    <customValue>
+        <fullName>30:R1.1</fullName>
+        <default>false</default>
+        <label>Child Welfare/CPS</label>
+    </customValue>
+    <customValue>
+        <fullName>34:R1.1</fullName>
+        <default>false</default>
+        <label>Juvenile Justice</label>
+    </customValue>
+    <customValue>
+        <fullName>35:R1.1</fullName>
+        <default>false</default>
+        <label>Law Enforcement/ Police</label>
+    </customValue>
+    <customValue>
+        <fullName>37:R1.1</fullName>
+        <default>false</default>
+        <label>Mental Hospital</label>
+    </customValue>
+    <customValue>
+        <fullName>38:R1.1</fullName>
+        <default>false</default>
+        <label>School</label>
+    </customValue>
+    <customValue>
+        <fullName>39:R1.1</fullName>
+        <default>false</default>
+        <label>Other Organization</label>
+    </customValue>
+    <customValue>
+        <fullName>8:R1.1</fullName>
+        <default>false</default>
+        <label>Client doesn’t know</label>
+    </customValue>
+    <customValue>
+        <fullName>9:R1.1</fullName>
+        <default>false</default>
+        <label>Client Prefers Not to Answer</label>
+    </customValue>
+    <customValue>
+        <fullName>99:R1.1</fullName>
+        <default>false</default>
+        <label>Data not collected</label>
+    </customValue>
+    <description>ReferralSource from Section R1.1 of HUD HMIS CSV Format Specification</description>
+    <masterLabel>Referral Source</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

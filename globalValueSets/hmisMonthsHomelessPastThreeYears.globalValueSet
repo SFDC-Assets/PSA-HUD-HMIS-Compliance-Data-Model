@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>8:3.917.5</fullName>
+        <default>false</default>
+        <label>Client doesn’t know</label>
+    </customValue>
+    <customValue>
+        <fullName>9:3.917.5</fullName>
+        <default>false</default>
+        <label>Client prefers not to answer</label>
+    </customValue>
+    <customValue>
+        <fullName>99:3.917.5</fullName>
+        <default>false</default>
+        <label>Data not collected</label>
+    </customValue>
+    <customValue>
+        <fullName>101:3.917.5</fullName>
+        <default>false</default>
+        <label>1</label>
+    </customValue>
+    <customValue>
+        <fullName>102:3.917.5</fullName>
+        <default>false</default>
+        <label>2</label>
+    </customValue>
+    <customValue>
+        <fullName>103:3.917.5</fullName>
+        <default>false</default>
+        <label>3</label>
+    </customValue>
+    <customValue>
+        <fullName>104:3.917.5</fullName>
+        <default>false</default>
+        <label>4</label>
+    </customValue>
+    <customValue>
+        <fullName>105:3.917.5</fullName>
+        <default>false</default>
+        <label>5</label>
+    </customValue>
+    <customValue>
+        <fullName>106:3.917.5</fullName>
+        <default>false</default>
+        <label>6</label>
+    </customValue>
+    <customValue>
+        <fullName>107:3.917.5</fullName>
+        <default>false</default>
+        <label>7</label>
+    </customValue>
+    <customValue>
+        <fullName>108:3.917.5</fullName>
+        <default>false</default>
+        <label>8</label>
+    </customValue>
+    <customValue>
+        <fullName>109:3.917.5</fullName>
+        <default>false</default>
+        <label>9</label>
+    </customValue>
+    <customValue>
+        <fullName>110:3.917.5</fullName>
+        <default>false</default>
+        <label>10</label>
+    </customValue>
+    <customValue>
+        <fullName>111:3.917.5</fullName>
+        <default>false</default>
+        <label>11</label>
+    </customValue>
+    <customValue>
+        <fullName>112:3.917.5</fullName>
+        <default>false</default>
+        <label>12</label>
+    </customValue>
+    <customValue>
+        <fullName>113:3.917.5</fullName>
+        <default>false</default>
+        <label>More than 12 months</label>
+    </customValue>
+    <description>MonthsHomelessPastThreeYears from Section 3.917.5 of HUD HMIS CSV Format Specification</description>
+    <masterLabel>Months Homeless Past Three Years</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

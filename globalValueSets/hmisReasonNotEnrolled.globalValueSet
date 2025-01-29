@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1:P3.A</fullName>
+        <default>false</default>
+        <label>Client was found ineligible for PATH</label>
+    </customValue>
+    <customValue>
+        <fullName>2:P3.A</fullName>
+        <default>false</default>
+        <label>Client was not enrolled for other reason(s)</label>
+    </customValue>
+    <customValue>
+        <fullName>3:P3.A</fullName>
+        <default>false</default>
+        <label>Unable to locate client</label>
+    </customValue>
+    <description>ReasonNotEnrolled from Section P3.A of HUD HMIS CSV Format Specification</description>
+    <masterLabel>Reason Not Enrolled - P3.A</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

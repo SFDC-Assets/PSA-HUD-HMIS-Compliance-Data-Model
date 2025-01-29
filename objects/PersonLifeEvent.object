@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>API_CurrentEdStatus__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( CurrentEdStatus__c ),FIND(&quot;:&quot;, TEXT( CurrentEdStatus__c))-1))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_CurrentEdStatus</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_CurrentSchoolAttend__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( CurrentSchoolAttend__c ),FIND(&quot;:&quot;, TEXT( CurrentSchoolAttend__c))-1))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_CurrentSchoolAttend</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_DataCollectionStage__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( DataCollectionStage__c ),FIND(&quot;:&quot;, TEXT( DataCollectionStage__c ))-1))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_DataCollectionStage</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_DateCreated__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(YEAR(DATEVALUE( CreatedDate )))&amp; &quot;-&quot;&amp;
+
+LPAD(TEXT(MONTH(DATEVALUE(CreatedDate))), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(DATEVALUE(CreatedDate))), 2, &quot;0&quot;)&amp; &quot; &quot;&amp;
+
+LEFT(RIGHT(text( CreatedDate ),9),8)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_DateCreated</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_DateDeleted__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK( DateDeleted__c )),
+
+TEXT(YEAR(DATEVALUE( DateDeleted__c )))&amp; &quot;-&quot;&amp;
+
+LPAD(TEXT(MONTH(DATEVALUE(DateDeleted__c))), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(DATEVALUE(DateDeleted__c))), 2, &quot;0&quot;)&amp; &quot; &quot;&amp;
+
+LEFT(RIGHT(text(DateDeleted__c),9),8),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_DateDeleted</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_DateUpdated__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK( LastModifiedDate )),
+
+TEXT(YEAR(DATEVALUE(LastModifiedDate )))&amp; &quot;-&quot;&amp;
+
+LPAD(TEXT(MONTH(DATEVALUE(LastModifiedDate))), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(DATEVALUE(LastModifiedDate))), 2, &quot;0&quot;)&amp; &quot; &quot;&amp;
+
+LEFT(RIGHT(text(LastModifiedDate),9),8),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_DateUpdated</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_EventDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK( EventDate )),
+
+TEXT(YEAR(DATEVALUE(EventDate)))&amp; &quot;-&quot;&amp;
+
+LPAD(TEXT(MONTH(DATEVALUE(EventDate))), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(DATEVALUE(EventDate))), 2, &quot;0&quot;),&quot;&quot;)</formula>
+        <label>API_EventDate</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_MostRecentEdStatus__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT(MostRecentEdStatus__c),FIND(&quot;:&quot;, TEXT(MostRecentEdStatus__c))-1))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_MostRecentEdStatus</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CurrentEdStatus__c</fullName>
+        <label>Current Ed Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisCurrentEdStatus</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CurrentSchoolAttend__c</fullName>
+        <label>Current School Attend</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisCurrentSchoolAttend</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DataCollectionStage__c</fullName>
+        <label>Data Collection Stage</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisDataCollectionStage</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DateDeleted__c</fullName>
+        <label>DateDeleted</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ExportID__c</fullName>
+        <externalId>false</externalId>
+        <label>ExportID</label>
+        <length>32</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MostRecentEdStatus__c</fullName>
+        <label>Most Recent Ed Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisMostRecentEdStatus</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Program_Enrollment__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Program Enrollment</label>
+        <referenceTo>ProgramEnrollment</referenceTo>
+        <relationshipLabel>Person Life Events</relationshipLabel>
+        <relationshipName>Person_Life_Events</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <recordTypes>
+        <fullName>HMIS_Life_Event</fullName>
+        <active>true</active>
+        <label>HMIS Life Event</label>
+        <picklistValues>
+            <picklist>CurrentEdStatus__c</picklist>
+            <values>
+                <fullName>0%3AC3%2EB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1%3AC3%2EB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3AC3%2EB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3AC3%2EB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3AC3%2EB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3AC3%2EB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3AC3%2EB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>99%3AC3%2EB</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CurrentSchoolAttend__c</picklist>
+            <values>
+                <fullName>0%3AC3%2E2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1%3AC3%2E2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3AC3%2E2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3AC3%2E2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3AC3%2E2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>99%3AC3%2E2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>DataCollectionStage__c</picklist>
+            <values>
+                <fullName>1%3A5%2E03%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A5%2E03%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A5%2E03%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%3A5%2E03%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6%3A5%2E03%2E1</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>EventType</picklist>
+            <values>
+                <fullName>Home</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Relocation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Youth Education Status</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MostRecentEdStatus__c</picklist>
+            <values>
+                <fullName>0%3AC3%2EA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1%3AC3%2EA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3AC3%2EA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3AC3%2EA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3AC3%2EA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%3AC3%2EA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6%3AC3%2EA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%3AC3%2EA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3AC3%2EA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3AC3%2EA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>99%3AC3%2EA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+</CustomObject>

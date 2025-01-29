@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1:1.1</fullName>
+        <default>false</default>
+        <label>Updated</label>
+    </customValue>
+    <customValue>
+        <fullName>3:1.1</fullName>
+        <default>false</default>
+        <label>Reporting period</label>
+    </customValue>
+    <customValue>
+        <fullName>4:1.1</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <description>Export Period Type from Section 1.1. of HUD HMIS CSV Format Specification</description>
+    <masterLabel>Export Period Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
