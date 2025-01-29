@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>API_DateCreated2__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(YEAR(DATEVALUE(  Contact.CreatedDate )))&amp; &quot;-&quot;&amp;
+
+LPAD(TEXT(MONTH(DATEVALUE(Contact.CreatedDate))), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(DATEVALUE(Contact.CreatedDate))), 2, &quot;0&quot;)&amp; &quot; &quot;&amp;
+
+LEFT(RIGHT(text( Contact.CreatedDate ),9),8)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_DateCreated2</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_DateCreated__c</fullName>
+        <label>API_DateCreated</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>API_DateDeleted__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK( DateDeleted__c )),
+
+TEXT(YEAR(DATEVALUE( DateDeleted__c)))&amp; &quot;-&quot;&amp;
+
+LPAD(TEXT(MONTH(DATEVALUE(DateDeleted__c))), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(DATEVALUE(DateDeleted__c))), 2, &quot;0&quot;)&amp; &quot; &quot;&amp;
+
+LEFT(RIGHT(text(DateDeleted__c),9),8),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_DateDeleted</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_DateUpdated__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK(  Contact.LastModifiedDate  )),
+
+TEXT(YEAR(DATEVALUE( Contact.LastModifiedDate )))&amp; &quot;-&quot;&amp;
+
+LPAD(TEXT(MONTH(DATEVALUE(Contact.LastModifiedDate))), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(DATEVALUE(Contact.LastModifiedDate))), 2, &quot;0&quot;)&amp; &quot; &quot;&amp;
+
+LEFT(RIGHT(text(Contact.LastModifiedDate),9),8),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_DateUpdated</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_Phone__c</fullName>
+        <externalId>false</externalId>
+        <formula>SUBSTITUTE(
+
+   SUBSTITUTE(
+
+        SUBSTITUTE(
+
+            SUBSTITUTE(
+
+                SUBSTITUTE( Phone , &quot;(&quot;, &quot;&quot;),&quot; &quot;, &quot;&quot;), &quot;)&quot; , &quot;&quot;), &quot;+&quot; , &quot;&quot;),&quot;-&quot;,&quot;&quot;)</formula>
+        <label>API_Phone</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_UserExtension__c</fullName>
+        <externalId>false</externalId>
+        <formula>SUBSTITUTE(
+
+   SUBSTITUTE(
+
+        SUBSTITUTE(
+
+            SUBSTITUTE(
+
+                SUBSTITUTE(  Extension  , &quot;(&quot;, &quot;&quot;),&quot; &quot;, &quot;&quot;), &quot;)&quot; , &quot;&quot;), &quot;+&quot; , &quot;&quot;),&quot;-&quot;,&quot;&quot;)</formula>
+        <label>API_UserExtension</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DateDeleted__c</fullName>
+        <label>DateDeleted</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ExportID__c</fullName>
+        <externalId>false</externalId>
+        <label>ExportID</label>
+        <length>32</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>hmisExportID__c</fullName>
+        <externalId>false</externalId>
+        <formula>$Setup.hmisExport__c.hmisExportID__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Export Id</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

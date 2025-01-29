@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Placeholder until standard PersonEducation object is released in Nonprofit Cloud</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>API_DataCollectionStage__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( hmisDataCollectionStage__c ),FIND(&quot;:&quot;, TEXT( hmisDataCollectionStage__c))-1))</formula>
+        <label>API_DataCollectionStage</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_Employed__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( Employed__c ),FIND(&quot;:&quot;, TEXT( Employed__c ))-1))</formula>
+        <label>API_Employed</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_EmploymentType__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT(EmploymentType__c),FIND(&quot;:&quot;, TEXT(EmploymentType__c))-1))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_EmploymentType</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_LastGradeCompleted__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT(LastGradeCompleted__c),FIND(&quot;:&quot;, TEXT(LastGradeCompleted__c))-1))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_LastGradeCompleted</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_NotEmployedReason__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( NotEmployedReason__c),FIND(&quot;:&quot;, TEXT( NotEmployedReason__c ))-1))</formula>
+        <label>API_NotEmployedReason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_SchoolStatus__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TEXT( SchoolStatus__c ),FIND(&quot;:&quot;, TEXT(SchoolStatus__c ))-1))</formula>
+        <label>API_SchoolStatus</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DateCreated__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(YEAR(DATEVALUE( CreatedDate )))&amp; &quot;-&quot;&amp;
+
+LPAD(TEXT(MONTH(DATEVALUE(CreatedDate))), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(DATEVALUE(CreatedDate))), 2, &quot;0&quot;)&amp; &quot; &quot;&amp;
+
+LEFT(RIGHT(text( CreatedDate ),9),8)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DateCreated</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DateDeleted__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK( DeletedDate__c )),
+
+TEXT(YEAR(DATEVALUE( DeletedDate__c )))&amp; &quot;-&quot;&amp;
+
+LPAD(TEXT(MONTH(DATEVALUE(DeletedDate__c))), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(DATEVALUE(DeletedDate__c))), 2, &quot;0&quot;)&amp; &quot; &quot;&amp;
+
+LEFT(RIGHT(text(DeletedDate__c),9),8),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DateDeleted</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DateUpdated__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK( LastModifiedDate )),
+
+TEXT(YEAR(DATEVALUE(LastModifiedDate )))&amp; &quot;-&quot;&amp;
+
+LPAD(TEXT(MONTH(DATEVALUE(LastModifiedDate))), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(DATEVALUE(LastModifiedDate))), 2, &quot;0&quot;)&amp; &quot; &quot;&amp;
+
+LEFT(RIGHT(text(LastModifiedDate),9),8),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DateUpdated</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DeletedDate__c</fullName>
+        <label>Deleted Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Employed__c</fullName>
+        <label>Employed</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNoYesReasonsMissingData</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>EmploymentType__c</fullName>
+        <label>Employment Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisEmploymentType</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ExportID__c</fullName>
+        <externalId>false</externalId>
+        <label>ExportID</label>
+        <length>32</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>InformationDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK( hmisInformationDate__c)),
+
+TEXT(YEAR( hmisInformationDate__c ))&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(MONTH(hmisInformationDate__c)), 2, &quot;0&quot;)&amp; &quot;-&quot; &amp;
+
+LPAD(TEXT(DAY(hmisInformationDate__c)), 2, &quot;0&quot;),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>InformationDate</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LastGradeCompleted__c</fullName>
+        <label>Last Grade Completed</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisLastGradeCompleted</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>NotEmployedReason__c</fullName>
+        <label>Not Employed Reason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisNotEmployedReason</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Participant__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Participant</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Employment &amp; Education</relationshipLabel>
+        <relationshipName>EmploymentEducation</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SchoolStatus__c</fullName>
+        <label>School Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisSchoolStatus</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>hmisDataCollectionStage__c</fullName>
+        <description>At what point in the project was the information on this record collected?</description>
+        <inlineHelpText>At what point in the project was the information on this record collected?</inlineHelpText>
+        <label>Data Collection Stage</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>hmisDataCollectionStage</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>hmisEnrollmentId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>The program enrollment this education status was collected for</description>
+        <inlineHelpText>The program enrollment this education status was collected for</inlineHelpText>
+        <label>Program Enrollment</label>
+        <referenceTo>ProgramEnrollment</referenceTo>
+        <relationshipName>PersonEducation</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>hmisInformationDate__c</fullName>
+        <description>The date this information was collected</description>
+        <inlineHelpText>The date this information was collected</inlineHelpText>
+        <label>Information Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <label>Employment Education</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Employment Education Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Employment Education</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>
