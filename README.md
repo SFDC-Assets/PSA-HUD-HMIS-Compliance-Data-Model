@@ -230,7 +230,7 @@ Give Users the following <b>Permission Set Licenses Assignment </b>(4th section 
 </head>
 <body style="height: auto; min-height: auto;">
 <ol>
-	<li> Install the package using this link:  https://login.salesforce.com/packaging/installPackage.apexp?p0=04tal0000014Qub </li>
+	<li> Install the package using this link:  https://test.salesforce.com/packaging/installPackage.apexp?p0=04tal0000014Qub </li>
 	<li> You will need to confirm the pre-installation steps have been completed.</li>
 	<li>Once that is done, you will visit this link:&nbsp;</li>
 	<li>Select which users (who were also given permissions in step 1)</li>
