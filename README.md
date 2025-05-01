@@ -2,10 +2,16 @@
 
 # HUD/HDMIS Compliance Data Model
 
+**Generate HUD/HMIS-compliant reports and streamline metadata management for homelessness support organizations.**
+
+[Accelerator Listing](https://gpsaccelerators.developer.salesforce.com/accelerator/a0wDo000000BAxYIAW/hudhmis-compliance-data-model)
+
+
+## Description
+
 This Accelerator is designed to streamline the process of creating and formatting reports in compliance with the Homeless Management Information System (HMIS) standards. The app helps service providers, agencies, and organizations in the homelessness support sector to efficiently collect, organize, and generate required metadata and reports in accordance with HMIS guidelines. While staff will see the options in plain text, remorts qill be created in proper values and formats. The goal is to help staff be more efficient without impacting reporting. 
 
 This Accelerator used the <a href="https://files.hudexchange.info/resources/documents/HMIS-CSV-Format-Specifications-2024.pdf">2024 CSV Format Specifications </a> to help setup the core required metadata and report(s). Workflows, process automation will be included with future releases. if you would like to participate in future development through our community build teams, please reach out to chrissy.thompson@salesforce.com. We are always looking for ways to improve our technology through collaboration, sharing ideas, utilizing otehrs skills and talent, and incorporating our community. We would love to have you!
-
 
 Key features include:
 
@@ -19,11 +25,6 @@ User-Friendly Interface: Designed for ease of use, the app features a straightfo
 
 Overall, this Accelerator simplifies the complex and often time-consuming process of creating HMIS-compliant reports, helping organizations maintain accurate, consistent, and timely data submissions for program performance, funding eligibility, and reporting to oversight bodies.
 
-
-[Accelerator Listing](https://gpsaccelerators.developer.salesforce.com/accelerator/a0wDo000000BAxYIAW/hudhmis-compliance-data-model)
-
-
-## Description
 <html style="overflow-y: hidden;">
 
 </head>
