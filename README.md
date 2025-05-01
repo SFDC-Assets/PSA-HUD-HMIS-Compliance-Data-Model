@@ -20,7 +20,7 @@ User-Friendly Interface: Designed for ease of use, the app features a straightfo
 Overall, this Accelerator simplifies the complex and often time-consuming process of creating HMIS-compliant reports, helping organizations maintain accurate, consistent, and timely data submissions for program performance, funding eligibility, and reporting to oversight bodies.
 
 
-Accelerator Listing: https://login.salesforce.com/packaging/installPackage.apexp?p0=04tal0000014RU5
+[Accelerator Listing](https://gpsaccelerators.developer.salesforce.com/accelerator/a0wDo000000BAxYIAW/hudhmis-compliance-data-model)
 
 
 ## Description
